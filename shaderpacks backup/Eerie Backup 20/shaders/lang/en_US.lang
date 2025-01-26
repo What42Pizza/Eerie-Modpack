@@ -1,0 +1,4 @@
+#shaders/lang/en_US.lang
+
+screen.SHOW_DANGER=Show Dangerous Light
+screen.SHOW_DANGER.comment=Show light levels that enemies can spawn on.

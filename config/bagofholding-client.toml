@@ -1,0 +1,7 @@
+#Color bag inventories on tooltips according to the bag's color.
+colorful_tooltips = true
+#Seeing bag inventory contents requires shift to be held.
+contents_require_shift = true
+#Render a white overlay over the slot the next item will be taken out when right-clicking the shulker box item.
+render_slot_overlay = true
+

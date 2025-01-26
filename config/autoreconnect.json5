@@ -1,0 +1,20 @@
+{
+	// Delays between attempts in seconds
+	"delays": [
+		3,
+		10,
+		30,
+		60
+	],
+	// Whether to repeat reconnecting with the last configured delay
+	"infinite": false,
+	// Messages to send after a successful automatic reconnect
+	"autoMessages": {
+		// Name of the singleplayer world or the server
+		"name": "",
+		// Messages to be sent after reconnecting
+		"messages": [],
+		// Delay between each message in milliseconds
+		"delay": 1000
+	}
+}

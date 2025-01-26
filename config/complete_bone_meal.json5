@@ -1,0 +1,14 @@
+{
+	// If 'true', Cactuses will be Bone-Meal-able
+	"enableCactusBoneMeal": true,
+	// If 'true', Chorus Flowers will be Bone-Meal-able
+	"enableChorusFlowerBoneMeal": true,
+	// If 'true', Nether Warts will be Bone-Meal-able
+	"enableNetherWartBoneMeal": true,
+	// If 'true', Sugar Canes will be Bone-Meal-able
+	"enableSugarCaneBoneMeal": true,
+	// If 'true', Vines will be Bone-Meal-able
+	"enableVineBoneMeal": true,
+	// If 'true', Corals will be Bone-Meal-able
+	"enableCoralBoneMeal": true
+}

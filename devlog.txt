@@ -1,0 +1,15 @@
+24/01/25
+
+Alright well I've created a Modrinth page for this modpack two days ago but it's still in the review stage. I still had to make a lot of changes to the mods list because of copyright but I think it's about to be approved. Also, I've decided to (sort of) go fully open source with this modpack. I'm keeping all rights reserved, but I'm definitely open to suggestions from people
+
+24/01/23
+
+Well, I've just watched another video of a horror modpack and I'm getting tired people not liking mine, so I'm finally going to start working on publishing mine online. I don't think I can do it on curseforge since there's a lot of custom stuff, but I think that maybe modrinth will allow it. If not then I'm really not sure what to do
+
+24/01/13
+
+I've been working on this on-and-off since at least 22/07/09, but I'm starting this devlog now because I think it's important to list the thought behind my decisions so that I don't undo something without realizing the impact of what I've done.
+
+The most important realization I've had recently is just the distinction between horror and terror (for the sake of this project). Horror is the knowledge that something extremely dangerous is nearby and terror is the expectation that something extremely dangerous is nearby. I've always said that this is a horror modpack, but now I realize that it's mainly a terror modpack. I think I've been going back and forth focusing on the horror elements and the terror elements without realizing it, but I definitely want to keep this distinction in mind from now on (which is a big reason why I'm writing this down).
+
+The biggest issue this terror/horror mismatch has created recently is the night-time brightness levels. I used to have no shadowlight at all during the night (because that increased terror), but then I changed it to be bright enough to be just slightly visible at night (because that increased the horror), but now I'm thinking that I can and probably should use both approaches to get the best of both worlds (no shadowlight when there's blocklight, and slight shadowlight when there's not)

@@ -1,0 +1,5 @@
+{
+	// The chance a skeleton that has spawned is of the stray variant.
+	// min: 0, max: 1.0
+	"chanceSkeletonIsStray": 0.05
+}

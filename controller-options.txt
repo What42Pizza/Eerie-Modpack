@@ -1,0 +1,248 @@
+enableController:false
+controllerNumber:0
+controllerModel:custom
+customControls_positiveTriggerAxes:
+customControls_negativeTriggerAxes:
+paperDoll_showAlwaysOn:false
+paperDoll_showCrawling:true
+paperDoll_showCrouching:true
+paperDoll_showHurt:true
+paperDoll_showOnFire:true
+paperDoll_showFlying:true
+paperDoll_showGliding:true
+paperDoll_showMoving:true
+paperDoll_showJumping:true
+paperDoll_showRiding:true
+paperDoll_showSpinning:true
+paperDoll_showSprinting:true
+paperDoll_showSwimming:true
+paperDoll_showSwingingArm:true
+paperDoll_showUsingItem:true
+custom_binding_key.controller.back: :PRESS:false
+custom_binding_key.controller.pause: :PRESS:false
+custom_binding_key.controller.hotbar_left: :PRESS:false
+custom_binding_key.controller.hotbar_right: :PRESS:false
+custom_binding_key.controller.split: :PRESS:false
+custom_binding_key.controller.quickMove: :PRESS:false
+custom_binding_key.controller.camera_horizontal: :PRESS:false
+custom_binding_key.controller.camera_vertical: :PRESS:false
+custom_binding_key.controller.mouse_horizontal: :PRESS:false
+custom_binding_key.controller.mouse_vertical: :PRESS:false
+custom_binding_key.controller.move_horizontal: :PRESS:false
+custom_binding_key.controller.move_vertical: :PRESS:false
+custom_binding_key.controller.scroll: :PRESS:false
+custom_binding_key.override.inventory: :PRESS:false
+custom_binding_key.override.jump: :PRESS:false
+custom_binding_key.override.attack: :PRESS:false
+custom_binding_key.override.use: :PRESS:false
+custom_binding_key.override.chat: :PRESS:false
+custom_binding_key.override.togglePerspective: :PRESS:false
+custom_binding_key.override.drop: :PRESS:false
+custom_binding_key.override.forward: :PRESS:false
+custom_binding_key.override.back: :PRESS:false
+custom_binding_key.override.left: :PRESS:false
+custom_binding_key.override.right: :PRESS:false
+custom_binding_key.override.sprint: :PRESS:false
+custom_binding_key.override.sneak: :PRESS:false
+custom_binding_key.controller.keyboard: :PRESS:false
+custom_binding_key.controller.keyboard_arrow_left: :PRESS:false
+custom_binding_key.controller.keyboard_arrow_right: :PRESS:false
+custom_binding_key.controller.keyboard_backspace: :PRESS:false
+custom_binding_key.controller.keyboard_caps: :PRESS:false
+custom_binding_key.controller.keyboard_up: :PRESS:false
+custom_binding_key.controller.keyboard_down: :PRESS:false
+custom_binding_key.controller.keyboard_left: :PRESS:false
+custom_binding_key.controller.keyboard_right: :PRESS:false
+custom_binding_key.controller.keyboard_select: :PRESS:false
+custom_binding_key.controller.keyboard_space: :PRESS:false
+custom_binding_select: :PRESS:false
+custom_binding_key.playerlist: :PRESS:false
+custom_binding_key.pickItem: :PRESS:false
+custom_binding_key.command: :PRESS:false
+custom_binding_key.socialInteractions: :PRESS:false
+custom_binding_key.screenshot: :PRESS:false
+custom_binding_key.smoothCamera: :PRESS:false
+custom_binding_key.fullscreen: :PRESS:false
+custom_binding_key.spectatorOutlines: :PRESS:false
+custom_binding_key.swapOffhand: :PRESS:false
+custom_binding_key.saveToolbarActivator: :PRESS:false
+custom_binding_key.loadToolbarActivator: :PRESS:false
+custom_binding_key.advancements: :PRESS:false
+custom_binding_key.hotbar.1: :PRESS:false
+custom_binding_key.hotbar.2: :PRESS:false
+custom_binding_key.hotbar.3: :PRESS:false
+custom_binding_key.hotbar.4: :PRESS:false
+custom_binding_key.hotbar.5: :PRESS:false
+custom_binding_key.hotbar.6: :PRESS:false
+custom_binding_key.hotbar.7: :PRESS:false
+custom_binding_key.hotbar.8: :PRESS:false
+custom_binding_key.hotbar.9: :PRESS:false
+custom_binding_key.resolutioncontrol.settings: :PRESS:false
+custom_binding_key.resolutioncontrol.screenshot: :PRESS:false
+custom_binding_net.clayborn.accurateblockplacement.togglevanillaplacement: :PRESS:false
+custom_binding_key.clienttweaks.hideOffhandItem: :PRESS:false
+custom_binding_key.clienttweaks.disableStepAssist: :PRESS:false
+custom_binding_key.clienttweaks.disableLogStripping: :PRESS:false
+custom_binding_key.entityculling.toggle: :PRESS:false
+custom_binding_key.fpsdisplay.toggleFpsOverlay: :PRESS:false
+custom_binding_key.inventory_control_tweaks.drag_out_of_inventory_modifier: :PRESS:false
+custom_binding_key.inventory_control_tweaks.click_armor_swap_modifier: :PRESS:false
+custom_binding_key.inventory_control_tweaks.drag_all_stacks_across_modifier: :PRESS:false
+custom_binding_key.logical_zoom.zoom: :PRESS:false
+custom_binding_key.modmenu.open_menu: :PRESS:false
+custom_binding_key.unionlib.open_union_inventory: :PRESS:false
+custom_binding_iris.keybind.reload: :PRESS:false
+custom_binding_iris.keybind.toggleShaders: :PRESS:false
+custom_binding_iris.keybind.shaderPackSelection: :PRESS:false
+xbox_360_binding_key.controller.back:button1:PRESS:false
+xbox_360_binding_key.controller.pause:button7:PRESS:false
+xbox_360_binding_key.controller.hotbar_left:button4:PRESS:false
+xbox_360_binding_key.controller.hotbar_right:button5:PRESS:false
+xbox_360_binding_key.controller.split:button3:PRESS:false
+xbox_360_binding_key.controller.quickMove:button2:PRESS:false
+xbox_360_binding_key.controller.camera_horizontal:axis2:PRESS:false
+xbox_360_binding_key.controller.camera_vertical:axis3:PRESS:false
+xbox_360_binding_key.controller.mouse_horizontal:axis0:PRESS:false
+xbox_360_binding_key.controller.mouse_vertical:axis1:PRESS:false
+xbox_360_binding_key.controller.move_horizontal:axis0:PRESS:false
+xbox_360_binding_key.controller.move_vertical:axis1:PRESS:false
+xbox_360_binding_key.controller.scroll:axis3:PRESS:false
+xbox_360_binding_key.override.inventory:button3:PRESS:false
+xbox_360_binding_key.override.jump:button0:PRESS:false
+xbox_360_binding_key.override.attack:axis_pos5:PRESS:false
+xbox_360_binding_key.override.use:axis_pos4:PRESS:false
+xbox_360_binding_key.override.chat:button11:PRESS:false
+xbox_360_binding_key.override.togglePerspective:button10:PRESS:false
+xbox_360_binding_key.override.drop:button12:PRESS:false
+xbox_360_binding_key.override.forward:axis_neg1:PRESS:false
+xbox_360_binding_key.override.back:axis_pos1:PRESS:false
+xbox_360_binding_key.override.left:axis_neg0:PRESS:false
+xbox_360_binding_key.override.right:axis_pos0:PRESS:false
+xbox_360_binding_key.override.sprint:button8:PRESS:false
+xbox_360_binding_key.override.sneak:button1:PRESS:false
+xbox_360_binding_key.controller.keyboard: :PRESS:false
+xbox_360_binding_key.controller.keyboard_arrow_left:button4:PRESS:false
+xbox_360_binding_key.controller.keyboard_arrow_right:button5:PRESS:false
+xbox_360_binding_key.controller.keyboard_backspace:button2:PRESS:false
+xbox_360_binding_key.controller.keyboard_caps:button3:PRESS:false
+xbox_360_binding_key.controller.keyboard_up:axis_neg1:PRESS:false
+xbox_360_binding_key.controller.keyboard_down:axis_pos1:PRESS:false
+xbox_360_binding_key.controller.keyboard_left:axis_neg0:PRESS:false
+xbox_360_binding_key.controller.keyboard_right:axis_pos0:PRESS:false
+xbox_360_binding_key.controller.keyboard_select:button0:PRESS:false
+xbox_360_binding_key.controller.keyboard_space:button1:PRESS:false
+xbox_360_binding_select:button0:PRESS:false
+xbox_360_binding_key.playerlist: :PRESS:false
+xbox_360_binding_key.pickItem: :PRESS:false
+xbox_360_binding_key.command: :PRESS:false
+xbox_360_binding_key.socialInteractions: :PRESS:false
+xbox_360_binding_key.screenshot: :PRESS:false
+xbox_360_binding_key.smoothCamera: :PRESS:false
+xbox_360_binding_key.fullscreen: :PRESS:false
+xbox_360_binding_key.spectatorOutlines: :PRESS:false
+xbox_360_binding_key.swapOffhand: :PRESS:false
+xbox_360_binding_key.saveToolbarActivator: :PRESS:false
+xbox_360_binding_key.loadToolbarActivator: :PRESS:false
+xbox_360_binding_key.advancements: :PRESS:false
+xbox_360_binding_key.hotbar.1: :PRESS:false
+xbox_360_binding_key.hotbar.2: :PRESS:false
+xbox_360_binding_key.hotbar.3: :PRESS:false
+xbox_360_binding_key.hotbar.4: :PRESS:false
+xbox_360_binding_key.hotbar.5: :PRESS:false
+xbox_360_binding_key.hotbar.6: :PRESS:false
+xbox_360_binding_key.hotbar.7: :PRESS:false
+xbox_360_binding_key.hotbar.8: :PRESS:false
+xbox_360_binding_key.hotbar.9: :PRESS:false
+xbox_360_binding_key.resolutioncontrol.settings: :PRESS:false
+xbox_360_binding_key.resolutioncontrol.screenshot: :PRESS:false
+xbox_360_binding_net.clayborn.accurateblockplacement.togglevanillaplacement: :PRESS:false
+xbox_360_binding_key.clienttweaks.hideOffhandItem: :PRESS:false
+xbox_360_binding_key.clienttweaks.disableStepAssist: :PRESS:false
+xbox_360_binding_key.clienttweaks.disableLogStripping: :PRESS:false
+xbox_360_binding_key.entityculling.toggle: :PRESS:false
+xbox_360_binding_key.fpsdisplay.toggleFpsOverlay: :PRESS:false
+xbox_360_binding_key.inventory_control_tweaks.drag_out_of_inventory_modifier: :PRESS:false
+xbox_360_binding_key.inventory_control_tweaks.click_armor_swap_modifier: :PRESS:false
+xbox_360_binding_key.inventory_control_tweaks.drag_all_stacks_across_modifier: :PRESS:false
+xbox_360_binding_key.logical_zoom.zoom: :PRESS:false
+xbox_360_binding_key.modmenu.open_menu: :PRESS:false
+xbox_360_binding_key.unionlib.open_union_inventory: :PRESS:false
+xbox_360_binding_iris.keybind.reload: :PRESS:false
+xbox_360_binding_iris.keybind.toggleShaders: :PRESS:false
+xbox_360_binding_iris.keybind.shaderPackSelection: :PRESS:false
+ps4_binding_key.controller.back:button2:PRESS:false
+ps4_binding_key.controller.pause:button9:PRESS:false
+ps4_binding_key.controller.hotbar_left:button4:PRESS:false
+ps4_binding_key.controller.hotbar_right:button5:PRESS:false
+ps4_binding_key.controller.split:button3:PRESS:false
+ps4_binding_key.controller.quickMove:button0:PRESS:false
+ps4_binding_key.controller.camera_horizontal:axis2:PRESS:false
+ps4_binding_key.controller.camera_vertical:axis5:PRESS:false
+ps4_binding_key.controller.mouse_horizontal:axis0:PRESS:false
+ps4_binding_key.controller.mouse_vertical:axis1:PRESS:false
+ps4_binding_key.controller.move_horizontal:axis0:PRESS:false
+ps4_binding_key.controller.move_vertical:axis1:PRESS:false
+ps4_binding_key.controller.scroll:axis5:PRESS:false
+ps4_binding_key.override.inventory:button3:PRESS:false
+ps4_binding_key.override.jump:button1:PRESS:false
+ps4_binding_key.override.attack:button7:PRESS:false
+ps4_binding_key.override.use:button6:PRESS:false
+ps4_binding_key.override.chat:button15:PRESS:false
+ps4_binding_key.override.togglePerspective:button14:PRESS:false
+ps4_binding_key.override.drop:button16:PRESS:false
+ps4_binding_key.override.forward:axis_neg1:PRESS:false
+ps4_binding_key.override.back:axis_pos1:PRESS:false
+ps4_binding_key.override.left:axis_neg0:PRESS:false
+ps4_binding_key.override.right:axis_pos0:PRESS:false
+ps4_binding_key.override.sprint:button10:PRESS:false
+ps4_binding_key.override.sneak:button2:PRESS:false
+ps4_binding_key.controller.keyboard:button13:PRESS:false
+ps4_binding_key.controller.keyboard_arrow_left:button4:PRESS:false
+ps4_binding_key.controller.keyboard_arrow_right:button5:PRESS:false
+ps4_binding_key.controller.keyboard_backspace:button0:PRESS:false
+ps4_binding_key.controller.keyboard_caps:button3:PRESS:false
+ps4_binding_key.controller.keyboard_up:axis_neg1:PRESS:false
+ps4_binding_key.controller.keyboard_down:axis_pos1:PRESS:false
+ps4_binding_key.controller.keyboard_left:axis_neg0:PRESS:false
+ps4_binding_key.controller.keyboard_right:axis_pos0:PRESS:false
+ps4_binding_key.controller.keyboard_select:button1:PRESS:false
+ps4_binding_key.controller.keyboard_space:button2:PRESS:false
+ps4_binding_select:button1:PRESS:false
+ps4_binding_key.playerlist: :PRESS:false
+ps4_binding_key.pickItem: :PRESS:false
+ps4_binding_key.command: :PRESS:false
+ps4_binding_key.socialInteractions: :PRESS:false
+ps4_binding_key.screenshot: :PRESS:false
+ps4_binding_key.smoothCamera: :PRESS:false
+ps4_binding_key.fullscreen: :PRESS:false
+ps4_binding_key.spectatorOutlines: :PRESS:false
+ps4_binding_key.swapOffhand: :PRESS:false
+ps4_binding_key.saveToolbarActivator: :PRESS:false
+ps4_binding_key.loadToolbarActivator: :PRESS:false
+ps4_binding_key.advancements: :PRESS:false
+ps4_binding_key.hotbar.1: :PRESS:false
+ps4_binding_key.hotbar.2: :PRESS:false
+ps4_binding_key.hotbar.3: :PRESS:false
+ps4_binding_key.hotbar.4: :PRESS:false
+ps4_binding_key.hotbar.5: :PRESS:false
+ps4_binding_key.hotbar.6: :PRESS:false
+ps4_binding_key.hotbar.7: :PRESS:false
+ps4_binding_key.hotbar.8: :PRESS:false
+ps4_binding_key.hotbar.9: :PRESS:false
+ps4_binding_key.resolutioncontrol.settings: :PRESS:false
+ps4_binding_key.resolutioncontrol.screenshot: :PRESS:false
+ps4_binding_net.clayborn.accurateblockplacement.togglevanillaplacement: :PRESS:false
+ps4_binding_key.clienttweaks.hideOffhandItem: :PRESS:false
+ps4_binding_key.clienttweaks.disableStepAssist: :PRESS:false
+ps4_binding_key.clienttweaks.disableLogStripping: :PRESS:false
+ps4_binding_key.entityculling.toggle: :PRESS:false
+ps4_binding_key.fpsdisplay.toggleFpsOverlay: :PRESS:false
+ps4_binding_key.inventory_control_tweaks.drag_out_of_inventory_modifier: :PRESS:false
+ps4_binding_key.inventory_control_tweaks.click_armor_swap_modifier: :PRESS:false
+ps4_binding_key.inventory_control_tweaks.drag_all_stacks_across_modifier: :PRESS:false
+ps4_binding_key.logical_zoom.zoom: :PRESS:false
+ps4_binding_key.modmenu.open_menu: :PRESS:false
+ps4_binding_key.unionlib.open_union_inventory: :PRESS:false
+ps4_binding_iris.keybind.reload: :PRESS:false
+ps4_binding_iris.keybind.toggleShaders: :PRESS:false
+ps4_binding_iris.keybind.shaderPackSelection: :PRESS:false

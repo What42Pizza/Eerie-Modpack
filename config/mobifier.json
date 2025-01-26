@@ -1,0 +1,1467 @@
+{
+  "dump_registries": true,
+  "mobifier": {
+    "minecraft:spawner_minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:giant": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "snowrealmagic:snow": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:end_crystal": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:glow_squid": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:experience_bottle": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:hoglin": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:trader_llama": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:boat": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:horse": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:trident": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:polar_bear": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:phantom": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:zombified_piglin": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.15",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:zombie.spawn_reinforcements": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:witch": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:llama": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:pig": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:turtle": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:husk": [
+      {
+        "conditions_to_apply": [
+          {
+            "biome_tag_is": [
+              "minecraft:has_structure/desert_pyramid"
+            ],
+            "type": "mobifier:biome_tag"
+          },
+          {
+            "dimension_is": [
+              "minecraft:overworld"
+            ],
+            "type": "mobifier:dimension"
+          }
+        ],
+        "xp_modifier": "*2",
+        "attribute_modifier": {
+          "minecraft:generic.luck": "*2",
+          "minecraft:generic.movement_speed": "*1.25",
+          "minecraft:generic.armor": "*2",
+          "minecraft:generic.attack_knockback": "*2",
+          "minecraft:generic.armor_toughness": "*2",
+          "minecraft:horse.jump_strength": "*2",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:zombie.spawn_reinforcements": "*2",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_speed": "*2",
+          "minecraft:generic.attack_damage": "*2",
+          "minecraft:generic.flying_speed": "*2"
+        }
+      }
+    ],
+    "minecraft:sheep": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:ender_dragon": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:cave_spider": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.0",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:goat": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:enderman": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*1.25",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:item_frame": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:dolphin": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:vex": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:shulker_bullet": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:item": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:dragon_fireball": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:cod": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:skeleton": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.3",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:donkey": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:ravager": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:area_effect_cloud": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:squid": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:ghast": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*3",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:skeleton_horse": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:cow": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:piglin_brute": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:creeper": [
+      {
+        "conditions_to_apply": [],
+        "drop_tables": ["minecraft:entities/creeper_blood_moon"],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.3",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:glow_item_frame": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:potion": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:bee": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.flying_speed": "*1"
+        }
+      }
+    ],
+    "minecraft:illusioner": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:player": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.movement_speed": "*0.95",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:salmon": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:wither_skull": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:snow_golem": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:shulker": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:mooshroom": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:hopper_minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:eye_of_ender": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:villager": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:stray": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.5",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:falling_block": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:drowned": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:zombie.spawn_reinforcements": "*1",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:rabbit": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:painting": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:axolotl": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:pillager": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:zoglin": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:tnt": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:lightning_bolt": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:fishing_bobber": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:strider": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:guardian": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*2",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:parrot": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.flying_speed": "*1"
+        }
+      }
+    ],
+    "minecraft:tnt_minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:arrow": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:chest_minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:wither": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.5",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*5",
+          "minecraft:generic.attack_damage": "*2",
+          "minecraft:generic.flying_speed": "*1"
+        }
+      }
+    ],
+    "minecraft:command_block_minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:ender_pearl": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:wandering_trader": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:bat": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:wither_skeleton": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.3",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*5",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*1.25"
+        }
+      }
+    ],
+    "minecraft:fireball": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:furnace_minecart": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:llama_spit": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:iron_golem": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*5",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*5",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:cobweb": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "moenchantments:livingitementity": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:evoker_fangs": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:piglin": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:spectral_arrow": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:snowball": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:blaze": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*2",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.15",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:elder_guardian": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1.25"
+        }
+      }
+    ],
+    "minecraft:mule": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:armor_stand": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:egg": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:zombie_horse": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:vindicator": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:magma_cube": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:spider": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.5",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.0",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1.25"
+        }
+      }
+    ],
+    "minecraft:small_fireball": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:slime": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.0",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*1.5",
+          "minecraft:generic.attack_damage": "*1.25"
+        }
+      }
+    ],
+    "minecraft:evoker": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*2",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.follow_range": "*2",
+          "minecraft:generic.knockback_resistance": "*2",
+          "minecraft:generic.attack_damage": "*1.25"
+        }
+      }
+    ],
+    "minecraft:marker": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:leash_knot": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "terraform:boat": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:pufferfish": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:cat": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:fox": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:experience_orb": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:tropical_fish": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:ocelot": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:silverfish": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*5",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:endermite": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*2",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*5",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:chicken": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1"
+        }
+      }
+    ],
+    "minecraft:firework_rocket": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1"
+      }
+    ],
+    "minecraft:zombie": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.15",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:zombie.spawn_reinforcements": "*1",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:wolf": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ],
+    "minecraft:zombie_villager": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1.15",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1.25",
+          "minecraft:zombie.spawn_reinforcements": "*1",
+          "minecraft:generic.follow_range": "*3",
+          "minecraft:generic.knockback_resistance": "*3",
+          "minecraft:generic.attack_damage": "*2"
+        }
+      }
+    ],
+    "minecraft:panda": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.max_health": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.attack_damage": "*1"
+        }
+      }
+    ]
+  }
+}

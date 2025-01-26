@@ -1,0 +1,12 @@
+{
+	"autoReplant": true,
+	"chance": 100,
+	"amount": 1,
+	"cropDenyList": [
+		"Block{minecraft:pumpkin_stem}",
+		"Block{minecraft:melon_stem}"
+	],
+	"cropAllowList": [
+		"Block{minecraft:nether_wart}"
+	]
+}
