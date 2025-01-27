@@ -1,6 +1,22 @@
 # Eerie (Modpack)
 
-I'm not gonna be bothered making a whole new introduction to this, just click [here](https://modrinth.com/modpack/eerie) for that
+## Shouldn't it be calming to hear the birds chirp?
+
+<br>
+
+![Empty, lonely house](https://cdn.modrinth.com/data/prrMmDPH/images/39afc450f0f86d2e8df121593f93c5ef6016f5d6.jpeg)
+
+This modpack is meant to bring back the scariness and eerieness that old Minecraft had. It was originally inspired by [Alpha Oxtrot](https://www.youtube.com/watch?v=6h7J_PQdYXg), but has grown over the years into its own project.
+
+![Hiding from the darkness closing in](https://cdn.modrinth.com/data/prrMmDPH/images/35fd35eaac5939c69d8ba162faad60213aa994c4.png)
+
+This is listed as a terror modpack because that is primarily how it operates. There are no scary monsters added, just an unsettling atmosphere. Also, it should be noted that this is made for actual gameplay and not necessarily content creation.
+
+![The nether hanging upside down](https://cdn.modrinth.com/data/prrMmDPH/images/68144479fba5c32f8a91ea482b3be39e26a8e0fa.jpeg)
+
+Credits to [Crop XP](https://www.curseforge.com/minecraft/mc-mods/xp-from-crops-fabric) and many other mods for making this possible
+
+<br>
 
 ### Check out the [Playthrough Readme](Playthrough_Readme.md)
 
