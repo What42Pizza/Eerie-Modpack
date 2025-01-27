@@ -1,1 +1,2 @@
 gamerule playersSleepingPercentage 110
+gamerule doInsomnia false

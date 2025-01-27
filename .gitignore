@@ -11,3 +11,5 @@ preprocessed.properties
 patched_shaders/
 supportercache.json
 usercache.json
+config/registryDump.txt
+crash-reports/

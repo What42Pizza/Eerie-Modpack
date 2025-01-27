@@ -2,8 +2,9 @@
 
 uniform float viewHeight;
 uniform float viewWidth;
-uniform mat4 gbufferProjectionInverse;
 uniform mat4 gbufferModelView;
+uniform mat4 gbufferModelViewInverse;
+uniform mat4 gbufferProjectionInverse;
 uniform vec3 fogColor;
 uniform vec3 skyColor;
 uniform float near;
@@ -22,6 +23,12 @@ uniform sampler2D texture;
 uniform sampler2D depthtex0;
 
 
+
+/*
+DON'T REMOVE
+const int colortex2Format = RGBA16F;
+const int colortex3Format = RGBA16F;
+*/
 
 float resolutionScale = targetResolution / viewHeight;
 
@@ -74,6 +81,17 @@ float toLinearDepth(float depth) {
 
 float fromLinearDepth(float depth) {
 	return (2.0 * near / depth - far - near) / (near - far);
+}
+
+vec3 screenToView(vec3 pos) {
+	vec4 iProjDiag = vec4(
+		gbufferProjectionInverse[0].x,
+		gbufferProjectionInverse[1].y,
+		gbufferProjectionInverse[2].zw
+	);
+	vec3 p3 = pos * 2.0 - 1.0;
+	vec4 viewPos = iProjDiag * p3.xyzz + gbufferProjectionInverse[3];
+	return viewPos.xyz / viewPos.w;
 }
 
 
@@ -134,7 +152,7 @@ float getSunlightPercent() {
 	} else {
 		output = getSunlightPercent_Sunrise();
 	}
-	return output*output;
+	return pow(output, 1.5);
 }
 
 #endif
@@ -148,7 +166,7 @@ vec3 getSkyColor() {
 		vec4 pos = vec4(gl_FragCoord.xy / vec2(viewWidth, viewHeight) * 2.0 - 1.0, 1.0, 1.0) * gbufferProjectionInverse;
 		float upDot = max(dot(normalize(pos.xyz), gbufferModelView[1].xyz), 0.0);
 		float fogAmount = 0.25 / (upDot*upDot + 0.25);
-		return mix(dstrt(skyColor, -0.15, 0.0, -0.5), dstrt(fogColor * getSunlightPercent(), -0.15, 0.0, -0.3), fogAmount * 0.66);
+		return mix(dstrt(skyColor * 0.9, -0.15, 0.0, -0.2), dstrt(fogColor * getSunlightPercent(), -0.15, 0.0, -0.3), fogAmount * 0.66);
 	#elif defined NETHER
 		//return fogColor;//vec3(0.121, 0.017, 0.017);
 		return vec3(0.0);

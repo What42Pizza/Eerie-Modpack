@@ -7,9 +7,14 @@ varying vec2 texCoords;
 void main() {
 	vec4 albedo = texture2D(texture, texCoords);
 	
-	albedo.rgb *= 0.25;
+	if (albedo.r < 0.5 && albedo.b < 0.5 && albedo.b < 0.5) {
+		albedo.rgb *= 0.7;
+	} else {
+		albedo.rgb *= 0.25;
+	}
+	albedo.rgb = mix(vec3(getColorLum(albedo.rgb)), albedo.rgb, 1.3);
 	
-	/* DRAWBUFFERS:0 */
+	/* DRAWBUFFERS:1 */
 	gl_FragData[0] = albedo;
 }
 

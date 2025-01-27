@@ -1,43 +1,17 @@
 varying vec2 texCoords;
-varying vec2 lmCoords;
-varying vec4 glColor;
-varying float normalShading;
-varying vec3 upVec;
+varying vec3 normal;
+varying float depth;
 
 
 
 #ifdef fsh
 
 void main() {
-	vec4 albedo = texture2D(texture, texCoords) * glColor;
+	if (texture2D(texture, texCoords).a < 0.5) discard;
 	
-	#include "basic_fsh.glsl"
+	vec4 albedo = vec4(normal * 0.5 + 0.5, 0.5 + 0.5 * depth);
 	
-	// fog
-	#if defined OVERWORLD || defined NETHER
-	
-		uint rng = uint(worldDay);
-		float fogSetting = randomFloat(rng);
-		fogSetting = 2*fogSetting-1;
-		fogSetting = fogSetting*fogSetting*fogSetting*0.5+0.5;
-		#ifdef OVEROWLRD
-			fogSetting = mix(0.75, fogSetting, getSunlightPercent());
-		#endif
-		float fogStart = triLerp(min_fogStart, avg_fogStart, max_fogStart, fogSetting);
-		float fogCurve = triLerp(min_fogCurve, avg_fogCurve, max_fogCurve, fogSetting);
-		
-		vec3 skyColor = getSkyColor();
-		skyColor *= getHorizonMultiplier(gl_FragCoord.z, upVec);
-		float fogAmount = toLinearDepth(gl_FragCoord.z) * (fogEnd / (14 * 16) + 0.6); // trial and error to get multipliers for multiple render disatances, desmos to find a line the gives good multiplier values
-		fogAmount = clamp(fogAmount, 0.0, 1.0);
-		fogAmount = (fogAmount-fogStart)/(1-fogStart);
-		fogAmount = clamp(fogAmount, 0.0, 1.0);
-		fogAmount = 1-pow(1-fogAmount,fogCurve);
-		albedo.rgb = mix(albedo.rgb, skyColor, fogAmount);
-		
-	#endif
-	
-	/* DRAWBUFFERS:0 */
+	/* DRAWBUFFERS:2 */
 	gl_FragData[0] = albedo;
 }
 
@@ -47,14 +21,13 @@ void main() {
 
 #ifdef vsh
 
-uniform ivec2 eyeBrightnessSmooth;
-
 void main() {
-	
-	#include "basic_vsh.glsl"
-	
-	upVec = normalize(gbufferModelView[1].xyz);
-	
+	gl_Position = ftransform();
+	texCoords = gl_MultiTexCoord0.st;
+	vec4 worldPos = gbufferModelViewInverse * gbufferProjectionInverse * gl_Position;
+	worldPos.xyz /= worldPos.w;
+	depth = min(length(worldPos.xz) / 16 / 16, 1.0);
+	normal = gl_Normal;
 }
 
 #endif

@@ -1,3 +1,11 @@
+24/01/26
+
+The modpack is fully public now, and suddenly I making a ton of changes. I've been pretty loose with a lot opf stuff since this has just been a personal project for so long, but now that this is public I want to make sure that it's fully presentable. I've overhauled many parts of the shader, edited the mods list, polished up the repo, started a changelog and todo, and probably more. It only has 7 downloads right now but I'm hoping to increase that.
+
+Also, I've been looking at this shader so much that it looks completely normal. The fog even makes the sky look like it has a bloom effect applied and it looks beautiful but not in any way that I want (2025-01-26_22.12.10).
+
+I've just discovered an interesting challenge, what should the sky color be like? It seems like I've had it be really desaturated and depressing, but now that I'm looking at out in an empty field I feel like it's too depressing. I've made it a bit more saturation and now it feels better and is more believable, but that only kinda aligns with my goals (which are terror and fun). I'm really not sure what sky color helps achieve these goals the best.
+
 24/01/25
 
 Alright well I've created a Modrinth page for this modpack two days ago but it's still in the review stage. I still had to make a lot of changes to the mods list because of copyright but I think it's about to be approved. Also, I've decided to (sort of) go fully open source with this modpack. I'm keeping all rights reserved, but I'm definitely open to suggestions from people
