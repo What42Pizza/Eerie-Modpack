@@ -1,3 +1,4 @@
 Make sun / moon disappear under the horizon
 Update gallery? (shader has changed a lot since 1.0.0)
 Convert gallery #12 to jgp
+Add custom tips

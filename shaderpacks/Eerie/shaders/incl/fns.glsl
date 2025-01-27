@@ -166,7 +166,7 @@ vec3 getSkyColor() {
 		vec4 pos = vec4(gl_FragCoord.xy / vec2(viewWidth, viewHeight) * 2.0 - 1.0, 1.0, 1.0) * gbufferProjectionInverse;
 		float upDot = max(dot(normalize(pos.xyz), gbufferModelView[1].xyz), 0.0);
 		float fogAmount = 0.25 / (upDot*upDot + 0.25);
-		return mix(dstrt(skyColor * 0.9, -0.15, 0.0, -0.2), dstrt(fogColor * getSunlightPercent(), -0.15, 0.0, -0.3), fogAmount * 0.66);
+		return mix(dstrt(skyColor * 0.9, -0.15, 0.0, -0.2), dstrt(fogColor * getSunlightPercent(), -0.15, 0.0, -0.5), fogAmount * 0.66);
 	#elif defined NETHER
 		//return fogColor;//vec3(0.121, 0.017, 0.017);
 		return vec3(0.0);

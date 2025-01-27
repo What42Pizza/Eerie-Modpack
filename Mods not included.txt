@@ -1,0 +1,10 @@
+This is a list of all the mods which I've chosen to not include and why.
+
+- Concurrent Chunk Management Engine
+This seems to create many lighting bugs and I don't think it's worth the performance increase I saw
+
+- Death Compass
+I want there to be a constant feeling of difficulty, and this mod goes against that
+
+- Klee Slabs
+I want there to be a constant feeling of difficulty, and this mod goes against that

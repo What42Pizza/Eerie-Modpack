@@ -1,4 +1,15 @@
-### v1.1.0 24/01/26
+### v1.2.0 24/01/27
+
+- Added mods:
+- - Fence on Slab
+- Removed mods:
+- - Death Compass
+- - Klee Slabs
+- Fixed shader settings 'Show Dangerous Light' and 'Decrease Resolution'
+
+<br>
+
+## v1.1.0 24/01/26
 
 - Increased default render distance to 12
 - Removed mods:

@@ -1,3 +1,9 @@
+24/01/27
+
+I've been noticing something kinda strange recently. I don't want there to be anything that could remind someone that they're playing a video game. This makes sense with horror since something can't be scary unless it's somewhat believable, but that seems to contradict the retro-digital aesthetic I'm going for and it's just kinda strange. And even stranger, I'm not fine with bugs but I'm fine with bits of lag. I want an overall smooth fps, but I think I also kinda want there to be lag spikes / framerate drops. I don't understand the theory here but at least I can perfect the practice. I think it might just be that I want to create juxtaposition, which I guess would make sense.
+
+I just added the mod Fence on Slab, which might seem kinda strange at first, but I like the idea of giving a sense of wonder and amazement when you see that some blocks can be placed off-grid but still be kinda on the grid at the same time.
+
 24/01/26
 
 The modpack is fully public now, and suddenly I making a ton of changes. I've been pretty loose with a lot opf stuff since this has just been a personal project for so long, but now that this is public I want to make sure that it's fully presentable. I've overhauled many parts of the shader, edited the mods list, polished up the repo, started a changelog and todo, and probably more. It only has 7 downloads right now but I'm hoping to increase that.

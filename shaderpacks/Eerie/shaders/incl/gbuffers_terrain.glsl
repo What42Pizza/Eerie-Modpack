@@ -9,7 +9,7 @@ varying vec3 upVec;
 	varying float isDanger;
 #endif
 
-#define LIGHT_LEVEL_CUTOFF 0.45
+#define LIGHT_LEVEL_CUTOFF 0.5
 
 
 
@@ -50,7 +50,8 @@ void main() {
 	#include "basic_vsh.glsl"
 	
 	#ifdef SHOW_DANGER
-		isDanger = (lmCoords.x < LIGHT_LEVEL_CUTOFF) ? 1.0 : 0.0;
+		float rawBlockLight = (gl_TextureMatrix[1] * gl_MultiTexCoord1).x;
+		isDanger = (rawBlockLight < LIGHT_LEVEL_CUTOFF) ? 1.0 : 0.0;
 	#endif
 	
 	// fog
