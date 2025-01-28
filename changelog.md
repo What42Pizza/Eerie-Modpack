@@ -6,6 +6,9 @@
 - - Death Compass
 - - Klee Slabs
 - Fixed shader settings 'Show Dangerous Light' and 'Decrease Resolution'
+- Slightly decreased shader resolution
+- Significantly improved night vision
+- Overhauled nether brightnesses
 
 <br>
 

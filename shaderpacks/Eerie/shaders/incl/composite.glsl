@@ -74,10 +74,6 @@ void main() {
 	#endif
 	
 	
-	// night vision
-	color *= pow(nightVisionTint, vec3(pow(nightVision, 0.3)));
-	
-	
 	#if defined OVERWORLD || defined NETHER
 		color = (color - 1) * 0.985 + 1;
 	#endif

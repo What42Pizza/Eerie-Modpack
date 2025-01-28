@@ -131,8 +131,8 @@ key_zoomify.key.gui:key.keyboard.f8
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.l
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-soundCategory_master:0.9084507
-soundCategory_music:0.3556338
+soundCategory_master:1.0
+soundCategory_music:0.40492958
 soundCategory_record:0.20774648
 soundCategory_weather:0.30633804
 soundCategory_block:0.7570422
