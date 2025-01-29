@@ -4,17 +4,9 @@
 
 <br>
 
-![Empty, lonely house](gallery/23.jpg)
+#
 
-This modpack is meant to bring back the scariness and eerieness that old Minecraft had. It was originally inspired by [Alpha Oxtrot](https://www.youtube.com/watch?v=6h7J_PQdYXg), but has grown over the years into its own project.
-
-![Hiding from the darkness closing in](gallery/12.png)
-
-This is listed as a terror modpack because that is primarily how it operates. There are no scary monsters added, just an unsettling atmosphere. Also, it should be noted that this is made for actual gameplay and not necessarily content creation.
-
-![The nether hanging upside down](gallery/22.jpg)
-
-Credits to [Crop XP](https://www.curseforge.com/minecraft/mc-mods/xp-from-crops-fabric) and many other mods for making this possible
+# [See Overview](https://modrinth.com/modpack/eerie)
 
 <br>
 
