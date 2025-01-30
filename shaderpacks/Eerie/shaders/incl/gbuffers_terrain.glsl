@@ -8,6 +8,7 @@ varying vec3 upVec;
 #ifdef SHOW_DANGER
 	varying float isDanger;
 #endif
+varying vec3 temp;
 
 #define LIGHT_LEVEL_CUTOFF 0.5
 
@@ -44,6 +45,10 @@ void main() {
 #ifdef vsh
 
 uniform ivec2 eyeBrightnessSmooth;
+
+#ifdef SHADER_TORCHLIGHT
+	in vec3 at_midBlock;
+#endif
 
 void main() {
 	

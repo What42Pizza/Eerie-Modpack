@@ -1,4 +1,15 @@
-### v1.2.0 24/01/27
+### v1.2.1 24/01/29
+
+- Added mods:
+- - Packet Fixer
+- Added custom tips
+- Added shader torchlight as alternative to LambDynamicLights
+- Shifted per-day fog to make starting day more foggy
+- Tweaked shader in many more ways
+
+<br>
+
+## v1.2.0 24/01/27
 
 - Added mods:
 - - Fence on Slab

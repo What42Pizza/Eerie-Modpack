@@ -2,6 +2,21 @@ gl_Position = ftransform();
 texCoords = gl_MultiTexCoord0.st;
 lmCoords = (gl_TextureMatrix[1] * gl_MultiTexCoord1).xy;
 
+#ifdef SHADER_TORCHLIGHT
+	vec4 playerPos4 = gbufferModelViewInverse * gbufferProjectionInverse * gl_Position;
+	vec3 playerPos = playerPos4.xyz / playerPos4.w;
+	#ifdef GBUFFERS_TERRAIN
+		playerPos += at_midBlock * 0.0001;
+	#endif
+	#ifdef GBUFFERS_TERRAIN
+		temp = floor(playerPos + cameraPosition) + 0.5 - cameraPosition;
+	#endif
+	playerPos = floor(playerPos + cameraPosition) + 0.5 - cameraPosition;
+	float torchLight = max(1.0 - 0.1 * length(playerPos), 0.0);
+	torchLight *= heldBlockLightValue / 15.0;
+	lmCoords.x = max(lmCoords.x, torchLight);
+#endif
+
 #ifdef OVERWORLD
 	lmCoords = adjustBrightness(lmCoords);
 	lmCoords.y = max(lmCoords.y * 1.5 - 0.5, 0.0);

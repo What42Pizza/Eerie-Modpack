@@ -1,6 +1,7 @@
 #version 130
 
 #define NETHER
+#define GBUFFERS_TERRAIN
 #define vsh
 
 #include "/incl/settings.glsl"

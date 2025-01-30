@@ -18,6 +18,8 @@ uniform float nightVision;
 uniform vec4 entityColor;
 uniform float rainStrength;
 uniform float fogEnd;
+uniform vec3 cameraPosition;
+uniform int heldBlockLightValue;
 
 uniform sampler2D texture;
 uniform sampler2D depthtex0;

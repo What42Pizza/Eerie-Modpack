@@ -1,6 +1,7 @@
 #version 130
 
 #define END
+#define GBUFFERS_TERRAIN
 #define vsh
 
 #include "/incl/settings.glsl"

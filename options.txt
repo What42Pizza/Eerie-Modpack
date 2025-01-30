@@ -36,7 +36,7 @@ ao:0
 prioritizeChunkUpdates:0
 biomeBlendRadius:1
 renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","programer_art","file/New.Music.Remover.1.0.zip","file/[1.18.x]ProgrammerArtFix-rv4.zip","file/golden-days-base-1.18-1.7.1.zip","file/eerie-fixes"]
+resourcePacks:["vanilla","Fabric Mods","programer_art","file/New.Music.Remover.1.0.zip","file/[1.18.x]ProgrammerArtFix-rv4.zip","file/golden-days-base-1.18-1.7.1.zip","file/Eerie"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

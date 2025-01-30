@@ -1,5 +1,6 @@
 option.SHOW_DANGER=Show Dangerous Light
-option.ENABLE_SCALING=Decrease Resolution
 option.NIGHT_BRIGHTNESS=Night Brightness
-value.NIGHT_BRIGHTNESS.0.08=Default
+value.NIGHT_BRIGHTNESS.0.085=Default
 value.NIGHT_BRIGHTNESS.0.15=Bright
+option.ENABLE_SCALING=Decrease Resolution
+option.SHADER_TORCHLIGHT=Shader Torchlight
