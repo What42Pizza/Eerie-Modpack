@@ -18,7 +18,7 @@
 
 <br>
 
-## Tips
+## In-Game Tips
 
 - You can craft an animal feeding through to breed animals automatically using 5 wooden planks in a bowl shape
 - Beds do not work
