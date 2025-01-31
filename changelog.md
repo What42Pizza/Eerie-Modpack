@@ -1,3 +1,12 @@
+### v1.2.2 24/01/30
+
+- Added mods:
+- - GPU Tape
+- Decreased mob difficulty
+- Added more tips
+
+<br>
+
 ### v1.2.1 24/01/29
 
 - Added mods:

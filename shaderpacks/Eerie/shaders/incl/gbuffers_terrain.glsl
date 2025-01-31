@@ -8,7 +8,6 @@ varying vec3 upVec;
 #ifdef SHOW_DANGER
 	varying float isDanger;
 #endif
-varying vec3 temp;
 
 #define LIGHT_LEVEL_CUTOFF 0.5
 
@@ -49,10 +48,16 @@ uniform ivec2 eyeBrightnessSmooth;
 #ifdef SHADER_TORCHLIGHT
 	in vec3 at_midBlock;
 #endif
+in vec3 mc_Entity;
 
 void main() {
 	
 	#include "basic_vsh.glsl"
+	
+	if (int(mc_Entity.x) == 10008) {
+		glColor.rgb = dstrt(glColor.rgb, -0.3, 0.0, -0.5);
+		glColor.a = 1.2;
+	}
 	
 	#ifdef SHOW_DANGER
 		float rawBlockLight = (gl_TextureMatrix[1] * gl_MultiTexCoord1).x;

@@ -2,9 +2,13 @@
 	"noMobsBurn": false,
 	"logMobIds": false,
 	"mods": [
+		"iceandfire",
 		"iceandfire"
 	],
 	"mobs": [
+		"minecraft:zombie",
+		"minecraft:skeleton",
+		"minecraft:stray",
 		"minecraft:zombie",
 		"minecraft:skeleton",
 		"minecraft:stray"
