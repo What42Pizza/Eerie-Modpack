@@ -24,6 +24,12 @@ uniform int heldBlockLightValue;
 uniform sampler2D texture;
 uniform sampler2D depthtex0;
 
+#ifdef fsh
+	#define FLAT flat in
+#else
+	#define FLAT flat out
+#endif
+
 
 
 /*
@@ -68,6 +74,11 @@ vec3 smoothMax(vec3 a, vec3 b, float c) {
 	float aLum = getColorLum(a);
 	float bLum = getColorLum(b);
 	return (a + b + sqrt((a - b) * (a - b) + c * (aLum + bLum) / 2)) / 2;
+}
+
+float maxDiff(vec3 a, vec3 b) {
+	vec3 diff = abs(a - b);
+	return max(max(diff.x, diff.y), diff.z);
 }
 
 float distToCenterSquared(vec2 coords) {

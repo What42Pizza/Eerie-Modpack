@@ -13,11 +13,11 @@ I want there to be a constant feeling of difficulty, and this mod goes against t
 I want there to be a constant feeling of difficulty, and this mod goes against that
 
 - Modern Fix
-This seems to create a lot of lag, especially in the nether, maybe is just a coincidence, probably needs more testing
+This seems to create random fps drops which are especially bad in the nether
 
 
 
-incompatible mods:
+Incompatible mods:
 
 - Memory Leak Fix
 - Cubes Without Borders

@@ -1,3 +1,10 @@
+### v1.2.3 24/01/31
+
+- Altered water color
+- Increased shader fogginess
+
+<br>
+
 ### v1.2.2 24/01/30
 
 - Added mods:

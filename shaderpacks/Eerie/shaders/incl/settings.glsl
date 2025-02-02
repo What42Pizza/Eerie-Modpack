@@ -28,22 +28,22 @@ const bool colortex0MipmapEnabled = true;
 
 const float normalsSlope = 16.0;
 
-const float min_fogStart = 0.3;
-const float avg_fogStart = 0.2;
+const float min_fogStart = 0.15;
+const float mid_fogStart = 0.1;
 const float max_fogStart = 0.05;
 const float min_fogEnd = 16 * 6;
-const float avg_fogEnd = 16 * 5;
+const float mid_fogEnd = 16 * 5;
 const float max_fogEnd = 16 * 4;
 const float min_fogCurve = 0.7;
-const float avg_fogCurve = 1.2;
+const float mid_fogCurve = 1.2;
 const float max_fogCurve = 2.5;
 
 const float targetResolution = 780;
 const float resolutionBlobAmount = 0.15;
 
 const float dstrtAmount1 = -0.08;   // saturation
-const float dstrtAmount2 = 0.15;   // contrast
-const float dstrtAmount3 = -0.28;  // gamma?
+const float dstrtAmount2 = 0.1;   // contrast
+const float dstrtAmount3 = -0.3;  // gamma?
 const float glColorSaturation = 0.825;
 const vec3  glColorTint = vec3(0.94, 0.95, 1.1);
 
@@ -51,7 +51,7 @@ const vec3 blockLight = vec3(1.0, 0.97, 0.93) * 1.0;
 const vec3 skyLight = vec3(0.98, 0.99, 1.0) * 1.05;
 const float lightMaxSmoothing = 0.025;
 const float brightnessCurve = 1.3;
-const float lightRainDecreaseAmount = 0.25;
+const float lightRainDecreaseAmount = 0.3;
 
 const float minVignette = 0.15;
 const vec3 inWaterTint = vec3(0.4, 0.5, 1.0);
@@ -74,13 +74,13 @@ const float sunPathRotation = 1.2;
 const float normalsSlope = 12.0;
 
 const float min_fogStart = 0.1;
-const float avg_fogStart = 0.1;
+const float mid_fogStart = 0.1;
 const float max_fogStart = 0.1;
 const float min_fogEnd = 16 * 8;
-const float avg_fogEnd = 16 * 8;
+const float mid_fogEnd = 16 * 8;
 const float max_fogEnd = 16 * 8;
 const float min_fogCurve = 2.0;
-const float avg_fogCurve = 2.0;
+const float mid_fogCurve = 2.0;
 const float max_fogCurve = 2.0;
 
 const float targetResolution = 750;
@@ -108,13 +108,13 @@ const vec3 nightVisionTint = vec3(0.2, 0.4, 0.0);
 const float normalsSlope = 12.0;
 
 const float min_fogStart = 0.3;
-const float avg_fogStart = 0.2;
+const float mid_fogStart = 0.2;
 const float max_fogStart = 0.05;
 const float min_fogEnd = 16 * 6;
-const float avg_fogEnd = 16 * 5;
+const float mid_fogEnd = 16 * 5;
 const float max_fogEnd = 16 * 4;
 const float min_fogCurve = 0.7;
-const float avg_fogCurve = 1.2;
+const float mid_fogCurve = 1.2;
 const float max_fogCurve = 2.5;
 
 const float targetResolution = 720;

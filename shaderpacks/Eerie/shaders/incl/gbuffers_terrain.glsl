@@ -8,6 +8,7 @@ varying vec3 upVec;
 #ifdef SHOW_DANGER
 	varying float isDanger;
 #endif
+FLAT int block;
 
 #define LIGHT_LEVEL_CUTOFF 0.5
 
@@ -17,6 +18,11 @@ varying vec3 upVec;
 
 void main() {
 	vec4 albedo = texture2D(texture, texCoords) * glColor;
+	
+	if (block == 10008) {
+		albedo.rgb = dstrt(albedo.rgb, -0.4, -0.1, -0.2);
+		albedo.a = 0.9;
+	}
 	
 	#include "basic_fsh.glsl"
 	
@@ -29,7 +35,7 @@ void main() {
 	
 	#ifdef SHOW_DANGER
 		if (isDanger > 0.5) {
-			albedo.rgb = mix(albedo.rgb, vec3(1.0, 0.0, 0.0), 0.75 * sqrt(1-fogAmount));
+			albedo.rgb = mix(albedo.rgb, vec3(1.0, 0.0, 0.0), 0.75 * sqrt(1.0 - fogAmount));
 		}
 	#endif
 	
@@ -54,10 +60,7 @@ void main() {
 	
 	#include "basic_vsh.glsl"
 	
-	if (int(mc_Entity.x) == 10008) {
-		glColor.rgb = dstrt(glColor.rgb, -0.3, 0.0, -0.5);
-		glColor.a = 1.2;
-	}
+	block = int(mc_Entity.x);
 	
 	#ifdef SHOW_DANGER
 		float rawBlockLight = (gl_TextureMatrix[1] * gl_MultiTexCoord1).x;
