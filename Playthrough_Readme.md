@@ -1,5 +1,7 @@
 ## Playthrough Readme
 
+If you find anything noted here that is incorrect, please do let me know
+
 <br>
 
 ### Settings
@@ -15,6 +17,12 @@
 
 - For a brighter night, go to shader settings / DEBUG_ONLY / Night Brightness
 - To stop the handheld light from flickering (because of a low update rate), go to Game Menu / Mods / LambDynamicLights / Configure / Dynamic Lights and set it to Off, then go to shader settings / DEBUG_ONLY / Shader Torchlight and turn it On
+
+<br>
+
+### Multiplayer
+
+This modpack is fully compatible with the Essentials mod, which is how I recommend doing multiplayer. Though of course, you can look for your own solutions
 
 <br>
 

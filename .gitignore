@@ -6,7 +6,10 @@ resourcepacks/New.Music.Remover.1.0.zip
 saves/
 screenshots/
 logs/
+essential/
 hotbar.nbt
+whitelist.json
+BTLib.dll
 original.properties
 preprocessed.properties
 patched_shaders/

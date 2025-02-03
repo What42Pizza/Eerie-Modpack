@@ -1,3 +1,16 @@
+### v1.2.4 24/02/03
+
+- Added mods:
+- - Essentials (disabled by default)
+- - Better Taskbar
+- - Mobtimizations
+- Removed mods:
+- - Exordium
+- Tweaked underwater color
+- Hopefully fixed modpack name
+
+<br>
+
 ### v1.2.3 24/01/31
 
 - Altered water color

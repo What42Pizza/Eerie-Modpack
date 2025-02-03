@@ -6,19 +6,23 @@ Causes vsync to be permanently disabled (at least for me)
 - Concurrent Chunk Management Engine
 This seems to create many lighting bugs and I don't think it's worth the performance increase I saw
 
+- Cubes Without Borders
+Requires Fabric 0.15.0+, which is incompatible with something here
+
 - Death Compass
 I want there to be a constant feeling of difficulty, and this mod goes against that
+
+- Exordium
+Doesn't work well with Essentials
 
 - Klee Slabs
 I want there to be a constant feeling of difficulty, and this mod goes against that
 
+- Memory Leak Fix
+Requires Fabric 0.15.0+, which is incompatible with something here
+
 - Modern Fix
 This seems to create random fps drops which are especially bad in the nether
 
-
-
-Incompatible mods:
-
-- Memory Leak Fix
-- Cubes Without Borders
-Requires Fabric 0.15.0+, which is incompatible with something here
+- Replay Mod
+Incompatible with something here, plus I feel like it would kinda ruin the feel of this modpack

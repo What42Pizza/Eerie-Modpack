@@ -57,9 +57,9 @@ void main() {
 	
 	// in liquid
 	if (isEyeInWater == 1) {
-		color *= inWaterTint;
+		color = mix(color, inWaterTint.rgb, inWaterTint.a);
 	} else if (isEyeInWater == 2) {
-		color *= inLavaTint;
+		color = mix(color, inLavaTint.rgb, inLavaTint.a);
 	}
 	
 	
