@@ -159,13 +159,13 @@ float getSunlightPercent_Sunset() {
 }
 
 float getSunlightPercent() {
-	float output;
+	float sunlight;
 	if (worldTime > 6000 && worldTime < 18000) {
-		output = getSunlightPercent_Sunset();
+		sunlight = getSunlightPercent_Sunset();
 	} else {
-		output = getSunlightPercent_Sunrise();
+		sunlight = getSunlightPercent_Sunrise();
 	}
-	return pow(output, 1.5);
+	return pow(sunlight, 1.5);
 }
 
 #endif
