@@ -1,43 +1,3 @@
-/*
-
-Removed:
-haybales -> wheat
-shield
-diamond armor (not tools)
-all wall types
-all glass panes
-raw copper, iron, and gold blocks
-scaffolding
-lanterns
-coarse dirt
-dripstone block
-
-Added:
-vines -> slime
-lily pads -> slime
-9 seeds -> 1 bone meal
-blaze powder + charcoal -> gunpowder
-//leather + string -> bundle
-gold + bottle -> bottle o' enchanting
-dopper + bow -> dispenser
-dispenser -> dropper
-stone tools, stone swords, and furnaces can be crafted with anything tagged stone
-2 redstone + 2 copper -> 4 redstone
-
-changed:
-detector rails give 16 per craft
-powered rails give 16 per craft
-ladders give 4 per craft
-bottles give 8 per craft
-all trapdoor recipes (except iron) give oak trapdoors
-add bed recipes give red beds
-
-*/
-
-
-
-
-
 import crafttweaker.api.recipe.MirrorAxis;
 
 
@@ -179,9 +139,16 @@ craftingTable.addShaped("bundle", <item:minecraft:bundle>, [
 */
 
 
-craftingTable.addShapeless("gold_to_bottle_o_enchanting", <item:minecraft:experience_bottle>, [
-	<item:minecraft:glass_bottle>,
-	<item:minecraft:gold_ingot>
+craftingTable.addShaped("gold_to_bottle_o_enchanting", <item:minecraft:experience_bottle>, [
+	[<item:minecraft:gold_ingot>],
+	[<item:minecraft:glass_bottle>]
+]);
+
+
+craftingTable.addShaped("lapis_to_bottle_o_enchanting", <item:minecraft:experience_bottle> * 2, [
+	[<item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>],
+	[<item:minecraft:lapis_lazuli>, <item:minecraft:experience_bottle>, <item:minecraft:lapis_lazuli>],
+	[<item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>]
 ]);
 
 
@@ -192,56 +159,6 @@ craftingTable.addShapeless("dropper_to_dispenser", <item:minecraft:dispenser>, [
 
 craftingTable.addShapeless("dispenser_to_dropper", <item:minecraft:dropper>, [
 	<item:minecraft:dispenser>,
-]);
-
-
-
-craftingTable.addShaped("ladder_from_oak", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:oak_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_spruce", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:spruce_planks>, <item:minecraft:air>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <item:minecraft:air>, <item:minecraft:spruce_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_birch", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <item:minecraft:air>, <item:minecraft:birch_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_jungle", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <item:minecraft:air>, <item:minecraft:jungle_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_acacia", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <item:minecraft:air>, <item:minecraft:acacia_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_dark_oak", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:air>, <item:minecraft:dark_oak_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_crimson", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <item:minecraft:air>, <item:minecraft:crimson_planks>]
-]);
-
-craftingTable.addShaped("ladder_from_warped", <item:minecraft:ladder> * 8, [
-	[<item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_planks>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <item:minecraft:air>, <item:minecraft:warped_planks>]
 ]);
 
 
@@ -284,7 +201,7 @@ craftingTable.addShaped("furnace", <item:minecraft:furnace>, [
 
 
 
-craftingTable.addShaped("copper_to_redstone", <item:minecraft:slime_ball>, [
+craftingTable.addShapedMirrored("copper_to_redstone", MirrorAxis.ALL, <item:minecraft:redstone> * 4, [
 	[<item:minecraft:redstone>, <item:minecraft:copper_ingot>],
 	[<item:minecraft:copper_ingot>, <item:minecraft:redstone>]
 ]);

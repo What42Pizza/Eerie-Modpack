@@ -1,3 +1,20 @@
+### v1.3.0 24/02/05
+
+- Added recipe to craft lapis plus bottles o' enchanting into 2x bottles o' enchanting
+- Created list of all recipe changes
+- Changed default maxEntityCramming to 50
+- Improved shader setting 'Show Dangerous Light'
+- Added and tweaked more tips
+- Made the gold-to-xp recipe shaped
+- Removed planks-to-ladders recipes
+- Added many more charcoal smelting recipes
+
+<br>
+
+#### v1.2.4b
+
+- Fixed shaders compilation error
+
 ### v1.2.4 24/02/03
 
 - Added mods:

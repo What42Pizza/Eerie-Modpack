@@ -1,3 +1,16 @@
 Make sun / moon disappear under the horizon
 Update gallery (shader has changed a lot since 1.0.0)
 Make a list of every mod
+Add shader seasons
+Add shader variable cloud height
+Make recipes for all seeds to bone meal
+
+Custom mod:
+decrease fortune effectiveness
+decrease resource spawn rate
+in-game todo list?
+make explosions not blow up tools / armor?
+remove mending
+disabled villager trades
+make mobs despawn when they kill you
+make charcoal only smelt 4 items

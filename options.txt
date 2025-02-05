@@ -36,7 +36,7 @@ ao:0
 prioritizeChunkUpdates:0
 biomeBlendRadius:1
 renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","programer_art","file/New.Music.Remover.1.0.zip","file/[1.18.x]ProgrammerArtFix-rv4.zip","file/golden-days-base-1.18-1.7.1.zip","file/Eerie"]
+resourcePacks:["vanilla","Fabric Mods","file/New.Music.Remover.1.0.zip","programer_art","file/[1.18.x]ProgrammerArtFix-rv4.zip","file/golden-days-base-1.18-1.7.1.zip","file/Eerie"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -131,22 +131,6 @@ key_zoomify.key.gui:key.keyboard.f8
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.l
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-key_keybind.name.ESSENTIAL_FRIENDS:key.keyboard.h
-key_keybind.name.COSMETIC_STUDIO:key.keyboard.b
-key_keybind.name.SCREENSHOT_MANAGER:key.keyboard.i
-key_keybind.name.COSMETICS_VISIBILITY_TOGGLE:key.keyboard.unknown
-key_keybind.name.CHAT_PEEK:key.keyboard.z
-key_keybind.name.INVITE_FRIENDS:key.keyboard.unknown
-key_keybind.name.EMOTE_WHEEL:key.keyboard.r
-key_keybind.name.EMOTE_SLOT_1:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_2:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_3:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_4:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_5:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
-key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
-key_keybind.name.ZOOM:key.keyboard.c
 soundCategory_master:1.0
 soundCategory_music:0.40492958
 soundCategory_record:0.20774648

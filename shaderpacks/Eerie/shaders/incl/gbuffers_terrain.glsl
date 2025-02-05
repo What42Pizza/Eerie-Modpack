@@ -26,17 +26,17 @@ void main() {
 	
 	#include "basic_fsh.glsl"
 	
+	#ifdef SHOW_DANGER
+		if (isDanger > 0.5) {
+			albedo.rgb = mix(albedo.rgb, vec3(1.0, 0.0, 0.0), 0.7 * max(lmCoords.x, lmCoords.y) * 2.0);
+		}
+	#endif
+	
 	// fog
 	#if defined OVERWORLD || defined NETHER
 		vec3 skyColor = getSkyColor();
 		skyColor *= getHorizonMultiplier(depth, upVec);
 		albedo.rgb = mix(albedo.rgb, skyColor, fogAmount);
-	#endif
-	
-	#ifdef SHOW_DANGER
-		if (isDanger > 0.5) {
-			albedo.rgb = mix(albedo.rgb, vec3(1.0, 0.0, 0.0), 0.75 * sqrt(1.0 - fogAmount));
-		}
 	#endif
 	
 	/* DRAWBUFFERS:0 */
