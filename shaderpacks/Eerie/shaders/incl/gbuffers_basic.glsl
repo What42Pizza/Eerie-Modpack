@@ -41,7 +41,10 @@ void main() {
 	#include "basic_vsh.glsl"
 	
 	// fog
-	#include "/incl/fog_data.glsl"
+	#include "/incl/depression.glsl"
+	float fogStart = triLerp(min_fogStart, mid_fogStart, max_fogStart, depression);
+	float fogEnd = triLerp(min_fogEnd, mid_fogEnd, max_fogEnd, depression);
+	float fogCurve = triLerp(min_fogCurve, mid_fogCurve, max_fogCurve, depression);
 	float linearDepth = length(gl_Vertex) / fogEnd;
 	fogAmount = linearDepth;
 	fogAmount = (fogAmount-fogStart)/(1-fogStart);

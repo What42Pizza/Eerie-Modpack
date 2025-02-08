@@ -36,9 +36,6 @@ lmCoords = max(lmCoords, vec2(0.0));
 lmCoords.x *= lmCoords.x;
 
 glColor = gl_Color;
-if (glColor.rgb != vec3(1.0)) {
-	glColor.rgb = mix(vec3(getColorLum(glColor.rgb)), glColor.rgb, glColorSaturation) * glColorTint;
-}
 
 vec3 separateNormals = (gl_Normal + normalsSlope-1) / normalsSlope;
 normalShading = separateNormals.r * 0.25 + separateNormals.g * 0.55 + separateNormals.b * 0.2;

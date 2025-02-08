@@ -16,7 +16,6 @@ void main() {
 	
 	
 	// sky
-	#include "/incl/fog_data.glsl"
 	float rawDepth = texelFetch(depthtex0, ivec2(gl_FragCoord.xy), 0).r;
 	#ifdef OVERWORLD
 		vec4 clouds = texelFetch(colortex2, ivec2(gl_FragCoord.xy), 0);
@@ -29,8 +28,10 @@ void main() {
 		float horizonMultiplier = getHorizonMultiplier(gl_FragCoord.z, upVec);
 		color *= horizonMultiplier;
 	}
+	#include "/incl/depression.glsl"
 	#ifdef OVERWORLD
 		float blockDepth = length(screenToView(vec3(texCoords, rawDepth)));
+		float fogEnd = triLerp(min_fogEnd, mid_fogEnd, max_fogEnd, depression);
 		float skyFog = clamp(percentThrough(blockDepth, fogEnd * 0.9, fogEnd), 0.0, 1.0);
 		color = mix(color, texelFetch(colortex1, ivec2(gl_FragCoord.xy), 0).rgb, skyFog);
 		if (clouds.a > 0.0) {
@@ -80,7 +81,7 @@ void main() {
 	
 	
 	/* DRAWBUFFERS:0 */
-	gl_FragData[0] = vec4(dstrt(color, dstrtAmount1, dstrtAmount2, dstrtAmount3), 1.0);
+	gl_FragData[0] = vec4(dstrt(color, dstrtAmount1, dstrtAmount2, dstrtAmount3 - depression * 0.1), 1.0);
 }
 
 #endif

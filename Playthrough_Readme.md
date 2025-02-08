@@ -64,7 +64,9 @@ This modpack is fully compatible with the Essentials mod, which is how I recomme
 - Phantoms are disabled, you're welcome
 - You can rapidly place blocks by holding down right-click and dragging
 - You can read enchanted books just like normal books
+- Read the Playthough Readme if you haven't already
 - You can harvest and replant crops by just right-clicking them
+- Each season lasts 12 days
 - Seasons exist and will affect your food growth
 - You can smelt planks into charcoal, not just logs
 - You can capture and store your xp by holding an empty bottle, pressing shift, and right-clicking

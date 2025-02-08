@@ -2,7 +2,7 @@
   "chunkConstant": 17,
   "rareSpawnTicksToWait": 400,
   "monsterGroup": {
-    "capacity": 70,
+    "capacity": 75,
     "peaceful": false,
     "rare": false,
     "immediateDespawnRange": 128,

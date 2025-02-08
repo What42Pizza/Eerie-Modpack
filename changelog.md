@@ -1,3 +1,12 @@
+### v1.3.1 24/02/08
+
+- Added color changing to seasons
+- Increased day-to-day visual variation
+- Slightly increased mob difficulty
+- Added a few more tips
+
+<br>
+
 ### v1.3.0 24/02/05
 
 - Added recipe to craft lapis plus bottles o' enchanting into 2x bottles o' enchanting

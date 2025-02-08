@@ -1,16 +1,18 @@
 Make sun / moon disappear under the horizon
 Update gallery (shader has changed a lot since 1.0.0)
+Improve icon
 Make a list of every mod
-Add shader seasons
 Add shader variable cloud height
 Make recipes for all seeds to bone meal
 
 Custom mod:
-decrease fortune effectiveness
-decrease resource spawn rate
-in-game todo list?
+decrease fortune effectiveness (to I = +20%, II = +35%, III = +50%)
+decrease resource spawn rate (*0.75)
 make explosions not blow up tools / armor?
 remove mending
 disabled villager trades
 make mobs despawn when they kill you
-make charcoal only smelt 4 items
+make charcoal only smelt 6 items
+make coal drop more
+make torches craft 3 at a time (using craft tweaker)
+add 'Supercharged Bone Meal' which is crafted with 1 Bone Meal and 4 Redstone Dust (in a star shape) and grows everything fully first try

@@ -44,8 +44,9 @@ const float resolutionBlobAmount = 0.15;
 const float dstrtAmount1 = -0.08;  // saturation
 const float dstrtAmount2 = 0.1;    // contrast
 const float dstrtAmount3 = -0.3;   // gamma?
-const float glColorSaturation = 0.825;
-const vec3  glColorTint = vec3(0.94, 0.95, 1.1);
+const vec4 seasonSaturations = vec4(1.1, 1.1, 1.0, 0.7);
+const vec4 seasonHues = vec4(0.0, -0.03, -0.13, -0.1);
+const vec4 seasonGammas = vec4(0.85, 0.95, 0.9, 0.9);
 
 const vec3 blockLight = vec3(1.0, 0.97, 0.93) * 1.0;
 const vec3 skyLight = vec3(0.98, 0.99, 1.0) * 1.05;
@@ -89,8 +90,6 @@ const float resolutionBlobAmount = 0.2;
 const float dstrtAmount1 = -0.05;   // saturation
 const float dstrtAmount2 = 0.075;   // contrast
 const float dstrtAmount3 = -0.175;  // gamma?
-const float glColorSaturation = 0.95;
-const vec3  glColorTint = vec3(1);
 
 const vec3 blockLight = vec3(1.0 , 0.45, 0.15) * 1.0;
 const float brightnessCurve = 1.5;
@@ -107,15 +106,15 @@ const vec3 nightVisionTint = vec3(0.2, 0.4, 0.0);
 
 const float normalsSlope = 12.0;
 
-const float min_fogStart = 0.3;
-const float mid_fogStart = 0.2;
-const float max_fogStart = 0.05;
-const float min_fogEnd = 16 * 6;
-const float mid_fogEnd = 16 * 5;
-const float max_fogEnd = 16 * 4;
-const float min_fogCurve = 0.7;
-const float mid_fogCurve = 1.2;
-const float max_fogCurve = 2.5;
+const float min_fogStart = 1.0;
+const float mid_fogStart = 1.0;
+const float max_fogStart = 1.0;
+const float min_fogEnd = 1.0;
+const float mid_fogEnd = 1.0;
+const float max_fogEnd = 1.0;
+const float min_fogCurve = 1.0;
+const float mid_fogCurve = 1.0;
+const float max_fogCurve = 1.0;
 
 const float targetResolution = 720;
 const float resolutionBlobAmount = 0.25;
@@ -123,8 +122,6 @@ const float resolutionBlobAmount = 0.25;
 const float dstrtAmount1 = -0.1;  // saturation
 const float dstrtAmount2 = 0.0;   // contrast
 const float dstrtAmount3 = -0.3;  // gamma?
-const float glColorSaturation = 1.0;
-const vec3  glColorTint = vec3(1.0, 1.0, 1.0);
 
 const vec3 blockLight = vec3(1.0, 0.98, 0.95) * 1.2;
 const vec3 skyLight = vec3(1.0, 1.0, 1.0) * 0.8;

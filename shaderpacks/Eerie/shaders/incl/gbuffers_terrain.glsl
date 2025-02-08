@@ -28,7 +28,7 @@ void main() {
 	
 	#ifdef SHOW_DANGER
 		if (isDanger > 0.5) {
-			albedo.rgb = mix(albedo.rgb, vec3(1.0, 0.0, 0.0), 0.7 * max(lmCoords.x, lmCoords.y) * 2.0);
+			albedo.rgb = mix(albedo.rgb, vec3(1.0, 0.0, 0.0), 0.7 * max(lmCoords.x * 2.0, lmCoords.y));
 		}
 	#endif
 	
@@ -56,9 +56,41 @@ uniform ivec2 eyeBrightnessSmooth;
 #endif
 in vec3 mc_Entity;
 
+vec4 getSeasonWeights() {
+	float dayTime = float(worldDay % 48) + float(worldTime) / 24000.0;
+	float seasonTime = dayTime / 12.0;
+	if (seasonTime < 0.5) {
+		float v = smoothstep(-0.5, 0.5, seasonTime);
+		return vec4(v, 0.0, 0.0, 1.0 - v);
+	} else if (seasonTime < 1.5) {
+		float v = smoothstep(0.5, 1.5, seasonTime);
+		return vec4(1.0 - v, v, 0.0, 0.0);
+	} else if (seasonTime < 2.5) {
+		float v = smoothstep(1.5, 2.5, seasonTime);
+		return vec4(0.0, 1.0 - v, v, 0.0);
+	} else if (seasonTime < 3.5) {
+		float v = smoothstep(2.5, 3.5, seasonTime);
+		return vec4(0.0, 0.0, 1.0 - v, v);
+	} else {
+		float v = smoothstep(3.5, 4.5, seasonTime);
+		return vec4(v, 0.0, 0.0, 1.0 - v);
+	}
+}
+
 void main() {
 	
 	#include "basic_vsh.glsl"
+	
+	#ifdef OVERWORLD
+		if (glColor.rgb != vec3(1.0)) {
+			vec4 seasonWeights = getSeasonWeights();
+			glColor.rgb = mix(vec3(getColorLum(glColor.rgb)), glColor.rgb, 0.825 * dot(seasonSaturations, seasonWeights)) * vec3(0.94, 0.95, 1.1);
+			glColor.rgb = rgb2hsv(glColor.rgb);
+			glColor.r += dot(seasonHues, seasonWeights);
+			glColor.rgb = hsv2rgb(glColor.rgb);
+			glColor.rgb = pow(glColor.rgb, vec3(dot(seasonGammas, seasonWeights)));
+		}
+	#endif
 	
 	block = int(mc_Entity.x);
 	
@@ -68,7 +100,10 @@ void main() {
 	#endif
 	
 	// fog
-	#include "/incl/fog_data.glsl"
+	#include "/incl/depression.glsl"
+	float fogStart = triLerp(min_fogStart, mid_fogStart, max_fogStart, depression);
+	float fogEnd = triLerp(min_fogEnd, mid_fogEnd, max_fogEnd, depression);
+	float fogCurve = triLerp(min_fogCurve, mid_fogCurve, max_fogCurve, depression);
 	float linearDepth = length(gl_Vertex) / fogEnd;
 	fogAmount = linearDepth;
 	fogAmount = (fogAmount-fogStart)/(1-fogStart);

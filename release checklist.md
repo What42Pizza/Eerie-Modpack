@@ -1,0 +1,15 @@
+- Ensure [changelog.md](changelog.md) has the correct date
+- Make sure the Essentials Mod is disabled
+- Export with items:
+- - config/
+- - datapacks/
+- - mods/
+- - resourcepacks/
+- - scripts/
+- - shaderpacks/
+- - LICENSE
+- - options.txt
+- - Playthrough_Readme.md
+- - Recipe_Changes.md
+- Git add, commit, push
+- Upload to Modrinth and GitHub
