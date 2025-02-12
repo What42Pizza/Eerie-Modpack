@@ -4,15 +4,24 @@ Improve icon
 Make a list of every mod
 Add shader variable cloud height
 Make recipes for all seeds to bone meal
+Try out Music Control
+Look through all enchantments and choose which ones should be removed
+Figure out what's going on with zoomify's config not working
+Make glcolor tweaks not apply to redstone dust
+Make bone blocks not craftable to bone meal
+Add tips:
+- check playthrough readme for recipe changes
+- You can pet your pets
 
 Custom mod:
 decrease fortune effectiveness (to I = +20%, II = +35%, III = +50%)
 decrease resource spawn rate (*0.75)
-make explosions not blow up tools / armor?
 remove mending
+make sharpness and smite only go to level 3
 disabled villager trades
 make mobs despawn when they kill you
 make charcoal only smelt 6 items
 make coal drop more
 make torches craft 3 at a time (using craft tweaker)
 add 'Supercharged Bone Meal' which is crafted with 1 Bone Meal and 4 Redstone Dust (in a star shape) and grows everything fully first try
+make fishing not give enchanting books

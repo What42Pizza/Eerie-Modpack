@@ -1,4 +1,14 @@
-### v1.3.1 24/02/08
+### v1.3.2 &nbsp; 24/02/13
+
+- Added mods:
+- - Ferrite Core
+- Added recipe for lapis blocks to xp bottles
+- Slightly decreased mod difficulty & slightly improved performance
+- Fixed redstone wires changing colors in different seasons
+
+<br>
+
+### v1.3.1 &nbsp; 24/02/08
 
 - Added color changing to seasons
 - Increased day-to-day visual variation
@@ -7,7 +17,7 @@
 
 <br>
 
-### v1.3.0 24/02/05
+### v1.3.0 &nbsp; 24/02/05
 
 - Added recipe to craft lapis plus bottles o' enchanting into 2x bottles o' enchanting
 - Created list of all recipe changes
@@ -19,12 +29,14 @@
 - Added many more charcoal smelting recipes
 
 <br>
+<br>
+<br>
 
 #### v1.2.4b
 
 - Fixed shaders compilation error
 
-### v1.2.4 24/02/03
+### v1.2.4 &nbsp; 24/02/03
 
 - Added mods:
 - - Essentials (disabled by default)
@@ -37,14 +49,14 @@
 
 <br>
 
-### v1.2.3 24/01/31
+### v1.2.3 &nbsp; 24/01/31
 
 - Altered water color
 - Increased shader fogginess
 
 <br>
 
-### v1.2.2 24/01/30
+### v1.2.2 &nbsp; 24/01/30
 
 - Added mods:
 - - GPU Tape
@@ -53,7 +65,7 @@
 
 <br>
 
-### v1.2.1 24/01/29
+### v1.2.1 &nbsp; 24/01/29
 
 - Added mods:
 - - Packet Fixer
@@ -64,7 +76,7 @@
 
 <br>
 
-## v1.2.0 24/01/27
+## v1.2.0 &nbsp; 24/01/27
 
 - Added mods:
 - - Fence on Slab
@@ -77,8 +89,10 @@
 - Overhauled nether brightnesses
 
 <br>
+<br>
+<br>
 
-## v1.1.0 24/01/26
+## v1.1.0 &nbsp; 24/01/26
 
 - Increased default render distance to 12
 - Removed mods:
@@ -92,7 +106,15 @@
 - Removed true darkness for nether
 
 <br>
+<br>
+<br>
 
-## v1.0.0 24/01/25
+## v1.0.0 &nbsp; 24/01/25
 
 - First public release
+
+<br>
+<br>
+<br>
+
+**NOTE:** This modpack uses [Romantic Versioning](https://github.com/What42Pizza/Romantic-Versioning-Specification)

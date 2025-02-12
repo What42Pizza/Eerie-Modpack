@@ -70,6 +70,20 @@ L L L
 
 <br>
 
+### Lapis Blocks To XP
+
+```
+L: Block of Lapis Lazuli
+B: Bottle O' Enchanting
+
+L L L
+L B L -> 10x Bottle O' Enchanting
+L L L
+
+```
+
+<br>
+
 ### Dropper To Dispenser
 
 ```

@@ -13,9 +13,9 @@
 	"eerie.tip.cobble_stone_recipes":      "Recipes that use Cobble Stone can take any kind of stone",
 	"eerie.tip.controller_support":        "Controller support can be enabled within the Midnight Controls mod",
 	"eerie.tip.craft_bone_meal":           "You can craft nine Seeds into a Bone Meal",
-	"eerie.tip.craft_gold_to_xp":          "You can craft Bottles O' Enchanting with one Bottle and one Gold Ingot",
+	"eerie.tip.craft_gold_to_xp":          "You can craft Bottles O' Enchanting with one Empty Bottle under one Gold Ingot",
 	"eerie.tip.craft_lapis_to_xp":         "You can craft 8 Lapis around 1 Bottle O' Enchanting into 2 Bottles O' Enchanting",
-	"eerie.tip.craft_slime_balls":         "You can craft 9 Vines or 9 Lily Pads into a Slime Ball",
+	"eerie.tip.craft_slime_balls":         "You can craft 9 Vines or 9 Lilly Pads into a Slime Ball",
 	"eerie.tip.crops_give_xp":             "Crops now give xp",
 	"eerie.tip.crops_like_rain":           "Crops grow faster in the rain",
 	"eerie.tip.ctrl_to_run":               "Press control to run",
@@ -29,7 +29,7 @@
 	"eerie.tip.keep_clock":                "Keep a Clock in your hotbar at all times, it just takes 4 Gold and 1 Redstone to craft",
 	"eerie.tip.many_crafts_removed":       "Many crafting recipes have been removed",
 	"eerie.tip.max_entity_cramming":       "Max entity cramming is set to 50",
-	"eerie.tip.more_charcoal":             "Many, many blocks and items can be smelted into charcoal",
+	"eerie.tip.more_charcoal":             "Many, many blocks and items can be smelted into Charcoal",
 	"eerie.tip.nether_is_taller":          "The nether is taller than vanilla",
 	"eerie.tip.no_zombie_knockback":       "Zombies of all kind have essentially no knockback",
 	"eerie.tip.only_red_beds":             "All bed recipes give red beds",
@@ -42,7 +42,7 @@
 	"eerie.tip.season_length":             "Each season lasts 12 days",
 	"eerie.tip.seasons_exist":             "Seasons exist and will affect your food growth",
 	"eerie.tip.smelt_planks":              "You can smelt planks into charcoal, not just logs",
-	"eerie.tip.store_xp":                  "You can capture and store your xp by holding an empty bottle, pressing shift, and right-clicking",
-	"eerie.tip.useful_bone_meal":          "Bone meal can be used on almost anything"
+	"eerie.tip.store_xp":                  "You can capture and store your xp by holding an Empty Bottle, pressing shift, and right-clicking",
+	"eerie.tip.useful_bone_meal":          "Bone Meal can be used on almost anything"
 	
 }

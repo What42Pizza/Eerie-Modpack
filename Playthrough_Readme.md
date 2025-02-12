@@ -40,9 +40,9 @@ This modpack is fully compatible with the Essentials mod, which is how I recomme
 - Recipes that use Cobble Stone can take any kind of stone
 - Controller support can be enabled within the Midnight Controls mod
 - You can craft nine Seeds into a Bone Meal
-- You can craft Bottles O' Enchanting with one Bottle and one Gold Ingot
+- You can craft Bottles O' Enchanting with one Empty Bottle under one Gold Ingot
 - You can craft 8 Lapis around 1 Bottle O' Enchanting into 2 Bottles O' Enchanting
-- You can craft 9 Vines or 9 Lily Pads into a Slime Ball
+- You can craft 9 Vines or 9 Lilly Pads into a Slime Ball
 - Crops now give xp
 - Crops grow faster in the rain
 - Press control to run
@@ -56,7 +56,7 @@ This modpack is fully compatible with the Essentials mod, which is how I recomme
 - Keep a Clock in your hotbar at all times, it just takes 4 Gold and 1 Redstone to craft
 - Many crafting recipes have been removed
 - Max entity cramming is set to 50
-- Many, many blocks and items can be smelted into charcoal
+- Many, many blocks and items can be smelted into Charcoal
 - The nether is taller than vanilla
 - Zombies of all kind have essentially no knockback
 - All bed recipes give red beds
@@ -69,5 +69,5 @@ This modpack is fully compatible with the Essentials mod, which is how I recomme
 - Each season lasts 12 days
 - Seasons exist and will affect your food growth
 - You can smelt planks into charcoal, not just logs
-- You can capture and store your xp by holding an empty bottle, pressing shift, and right-clicking
-- Bone meal can be used on almost anything
+- You can capture and store your xp by holding an Empty Bottle, pressing shift, and right-clicking
+- Bone Meal can be used on almost anything

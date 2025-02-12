@@ -81,8 +81,10 @@ void main() {
 	
 	#include "basic_vsh.glsl"
 	
+	block = int(mc_Entity.x);
+	
 	#ifdef OVERWORLD
-		if (glColor.rgb != vec3(1.0)) {
+		if (glColor.rgb != vec3(1.0) && (block / 10000) < 2) {
 			vec4 seasonWeights = getSeasonWeights();
 			glColor.rgb = mix(vec3(getColorLum(glColor.rgb)), glColor.rgb, 0.825 * dot(seasonSaturations, seasonWeights)) * vec3(0.94, 0.95, 1.1);
 			glColor.rgb = rgb2hsv(glColor.rgb);
@@ -91,8 +93,6 @@ void main() {
 			glColor.rgb = pow(glColor.rgb, vec3(dot(seasonGammas, seasonWeights)));
 		}
 	#endif
-	
-	block = int(mc_Entity.x);
 	
 	#ifdef SHOW_DANGER
 		float rawBlockLight = (gl_TextureMatrix[1] * gl_MultiTexCoord1).x;

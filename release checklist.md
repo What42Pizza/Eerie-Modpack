@@ -1,5 +1,8 @@
 - Ensure [changelog.md](changelog.md) has the correct date
 - Make sure the Essentials Mod is disabled
+- Make sure the render distance is set to 12
+- Go to config/mobsunscreen.json5 and delete all duplicates
+- Git add, commit, push
 - Export with items:
 - - config/
 - - datapacks/
@@ -11,5 +14,4 @@
 - - options.txt
 - - Playthrough_Readme.md
 - - Recipe_Changes.md
-- Git add, commit, push
 - Upload to Modrinth and GitHub

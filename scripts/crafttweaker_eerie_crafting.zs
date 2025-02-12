@@ -7,13 +7,20 @@ import crafttweaker.api.recipe.MirrorAxis;
 // removals
 
 craftingTable.removeByName(["wheat"]);
+craftingTable.removeByName(["bone_meal"]);
 
 craftingTable.removeByName(["shield"]);
+craftingTable.removeByName([
+	"diamond_helmet",
+	"diamond_chestplate",
+	"diamond_leggings",
+	"diamond_boots"
+]);
 
-craftingTable.removeByName(["diamond_helmet"]);
-craftingTable.removeByName(["diamond_chestplate"]);
-craftingTable.removeByName(["diamond_leggings"]);
-craftingTable.removeByName(["diamond_boots"]);
+craftingTable.removeByName(["scaffolding"]);
+craftingTable.removeByName(["lantern", "soul_lantern"]);
+craftingTable.removeByName(["coarse_dirt"]);
+craftingTable.removeByName(["dripstone_block"]);
 
 craftingTable.removeByName([
 	"black_stained_glass_pane",
@@ -83,15 +90,6 @@ craftingTable.removeByName([
 ]);
 
 
-craftingTable.removeByName(["scaffolding"]);
-
-craftingTable.removeByName(["lantern", "soul_lantern"]);
-
-craftingTable.removeByName(["coarse_dirt"]);
-
-craftingTable.removeByName(["dripstone_block"]);
-
-
 
 
 
@@ -149,6 +147,13 @@ craftingTable.addShaped("lapis_to_bottle_o_enchanting", <item:minecraft:experien
 	[<item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>],
 	[<item:minecraft:lapis_lazuli>, <item:minecraft:experience_bottle>, <item:minecraft:lapis_lazuli>],
 	[<item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>]
+]);
+
+
+craftingTable.addShaped("lapis_blocks_to_bottle_o_enchanting", <item:minecraft:experience_bottle> * 10, [
+	[<item:minecraft:lapis_block>, <item:minecraft:lapis_block>, <item:minecraft:lapis_block>],
+	[<item:minecraft:lapis_block>, <item:minecraft:experience_bottle>, <item:minecraft:lapis_block>],
+	[<item:minecraft:lapis_block>, <item:minecraft:lapis_block>, <item:minecraft:lapis_block>]
 ]);
 
 
