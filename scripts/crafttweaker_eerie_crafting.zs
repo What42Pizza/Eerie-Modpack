@@ -7,7 +7,7 @@ import crafttweaker.api.recipe.MirrorAxis;
 // removals
 
 craftingTable.removeByName(["wheat"]);
-craftingTable.removeByName(["bone_meal"]);
+craftingTable.removeByName(["bone_meal_from_bone_block"]);
 
 craftingTable.removeByName(["shield"]);
 craftingTable.removeByName([

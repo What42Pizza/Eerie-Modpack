@@ -1,3 +1,18 @@
+### v1.3.3 &nbsp; 24/04/11
+
+- Added mods:
+- - Alive World
+- - E4mc
+- - Cascades
+- Removed mods:
+- - Essential Mod (and Essential Mod Dependencies)
+- Overhauled structure spawning
+- Changed default render distance to 8
+- Improved shader in several ways
+- Changed FOV to 72
+
+<br>
+
 ### v1.3.2 &nbsp; 24/02/13
 
 - Added mods:

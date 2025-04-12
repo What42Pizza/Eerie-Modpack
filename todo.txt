@@ -1,14 +1,10 @@
-Make sun / moon disappear under the horizon
 Update gallery (shader has changed a lot since 1.0.0)
 Improve icon
 Make a list of every mod
 Add shader variable cloud height
 Make recipes for all seeds to bone meal
 Try out Music Control
-Look through all enchantments and choose which ones should be removed
 Figure out what's going on with zoomify's config not working
-Make glcolor tweaks not apply to redstone dust
-Make bone blocks not craftable to bone meal
 Add tips:
 - check playthrough readme for recipe changes
 - You can pet your pets
@@ -16,8 +12,7 @@ Add tips:
 Custom mod:
 decrease fortune effectiveness (to I = +20%, II = +35%, III = +50%)
 decrease resource spawn rate (*0.75)
-remove mending
-make sharpness and smite only go to level 3
+remove enchantments: Mending, Sharpness IV and V, Smite IV and V, Bane of Arthropods IV and V, Knockback II, Looting III, Sweeping Edge III, Power IV and V, Impaling IV and V, Piercing IV
 disabled villager trades
 make mobs despawn when they kill you
 make charcoal only smelt 6 items

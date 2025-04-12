@@ -1,4 +1,5 @@
 varying vec2 texCoords;
+varying vec3 upVec;
 
 
 
@@ -14,6 +15,8 @@ void main() {
 	}
 	albedo.rgb = mix(vec3(getColorLum(albedo.rgb)), albedo.rgb, 1.3);
 	
+	albedo.a *= getHorizonMultiplier(gl_FragCoord.z, upVec);
+	
 	/* DRAWBUFFERS:1 */
 	gl_FragData[0] = albedo;
 }
@@ -27,6 +30,7 @@ void main() {
 void main() {
 	texCoords = (gl_TextureMatrix[0] * gl_MultiTexCoord0).xy;
 	gl_Position = ftransform();
+	upVec = normalize(gbufferModelView[1].xyz);
 }
 
 #endif

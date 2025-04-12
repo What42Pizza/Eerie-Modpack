@@ -22,7 +22,9 @@ This is a list of basic knowledge you should have when playing this modpack (if 
 
 ### Multiplayer
 
-This modpack is fully compatible with the Essentials mod, which is how I recommend doing multiplayer. Though of course, you can look for your own solutions
+[E4mc](https://modrinth.com/mod/e4mc) is used for online multiplayer without port-forwarding. For others to join you, you must:
+- 1: Open any world in singleplayer and open it to lan
+- 2: Share the server domain given by E4mc (it should look something like "apple-orange.na.e4mc.link") and tell others to put it in the Server Address slot for either Direct Connect or Add Server
 
 <br>
 
@@ -37,7 +39,7 @@ This modpack is fully compatible with the Essentials mod, which is how I recomme
 - You can make tools out of copper
 - You can craft boats with chests and you access its inventory with shift-right-click
 - Keep your chests away from creepers
-- Recipes that use Cobble Stone can take any kind of stone
+- Recipes that use Cobbled Stone can take any kind of stone
 - Controller support can be enabled within the Midnight Controls mod
 - You can craft nine Seeds into a Bone Meal
 - You can craft Bottles O' Enchanting with one Empty Bottle under one Gold Ingot

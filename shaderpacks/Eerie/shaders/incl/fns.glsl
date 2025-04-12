@@ -180,7 +180,7 @@ float getSunlightPercent() {
 	} else {
 		sunlight = getSunlightPercent_Sunrise();
 	}
-	return pow(sunlight, 1.5);
+	return sunlight * sunlight;
 }
 
 #endif

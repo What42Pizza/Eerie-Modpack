@@ -65,7 +65,7 @@ void main() {
 	
 	
 	// vignette
-	#ifdef OVERWORLD
+	#if defined OVERWORLD || defined NETHER
 		float maxedPlayerMood = min(playerMood, 1-pow((eyeAltitude+64)/128,2));
 		float vignetteScale = pow(1-max(maxedPlayerMood,minVignette),3);
 		vec2 vignetteCoords = scaleAroundCenter(texCoords, vec2(0.9, 1.0));
@@ -81,7 +81,7 @@ void main() {
 	
 	
 	/* DRAWBUFFERS:0 */
-	gl_FragData[0] = vec4(dstrt(color, dstrtAmount1, dstrtAmount2, dstrtAmount3 - depression * 0.1), 1.0);
+	gl_FragData[0] = vec4(dstrt(color, dstrtAmount1, dstrtAmount2, dstrtAmount3 + depression * depressionDstrtAmount3), 1.0);
 }
 
 #endif

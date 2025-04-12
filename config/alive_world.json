@@ -1,0 +1,8 @@
+{
+  "furnacesEnabled": true,
+  "brewingStandsEnabled": true,
+  "campfiresEnabled": true,
+  "mobGrowingEnabled": true,
+  "chickenEggLayingEnabled": true,
+  "cropsGrowingEnabled": true
+}

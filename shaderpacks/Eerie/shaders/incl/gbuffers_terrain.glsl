@@ -21,7 +21,7 @@ void main() {
 	
 	if (block == 10008) {
 		albedo.rgb = dstrt(albedo.rgb, -0.4, -0.1, -0.2);
-		albedo.a = 0.9;
+		albedo.a = 0.8;
 	}
 	
 	#include "basic_fsh.glsl"
@@ -106,9 +106,10 @@ void main() {
 	float fogCurve = triLerp(min_fogCurve, mid_fogCurve, max_fogCurve, depression);
 	float linearDepth = length(gl_Vertex) / fogEnd;
 	fogAmount = linearDepth;
-	fogAmount = (fogAmount-fogStart)/(1-fogStart);
+	fogAmount = (fogAmount-fogStart)/(1.0-fogStart);
 	fogAmount = clamp(fogAmount, 0.0, 1.0);
-	fogAmount = 1-pow(1-fogAmount,fogCurve);
+	fogAmount = 1.0-pow(1.0-fogAmount,fogCurve);
+	fogAmount *= 1.0 - (1.0 - lmCoords.y) * (1.0 - eyeBrightnessSmooth.y / 240.0);
 	
 	depth = fromLinearDepth(linearDepth);
 	upVec = normalize(gbufferModelView[1].xyz);

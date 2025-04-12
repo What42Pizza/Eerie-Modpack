@@ -26,7 +26,7 @@ lmCoords = (gl_TextureMatrix[1] * gl_MultiTexCoord1).xy;
 	lmCoords.y *= 1 - (rainStrength * lightRainDecreaseAmount);
 #elif defined NETHER
 	lmCoords = adjustBrightness(lmCoords);
-	const float maxBrightness = 1.5;
+	const float maxBrightness = 1.4;
 	const float brightnessSlope = 2.75;
 	lmCoords.x = max(lmCoords.x * brightnessSlope - brightnessSlope + maxBrightness, 0.5);
 #elif defined END
