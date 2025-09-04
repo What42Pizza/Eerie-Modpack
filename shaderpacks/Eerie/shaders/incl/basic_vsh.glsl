@@ -19,10 +19,8 @@ lmCoords = (gl_TextureMatrix[1] * gl_MultiTexCoord1).xy;
 
 #ifdef OVERWORLD
 	lmCoords = adjustBrightness(lmCoords);
-	lmCoords.y = max(lmCoords.y * 1.5 - 0.5, 0.0);
-	float ymin = (1.0 - eyeBrightnessSmooth.x / 240.0) * NIGHT_BRIGHTNESS;
-	float ymax = ymin + (1.0 - ymin) * getSunlightPercent();
-	lmCoords.y = min(lmCoords.y, ymax);
+	float skylightBrightness = mix(NIGHT_BRIGHTNESS * (1.0 - eyeBrightnessSmooth.x / 240.0), 1, getSunlightPercent());
+	lmCoords.y = min(lmCoords.y, skylightBrightness);
 	lmCoords.y *= 1 - (rainStrength * lightRainDecreaseAmount);
 #elif defined NETHER
 	lmCoords = adjustBrightness(lmCoords);

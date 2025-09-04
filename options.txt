@@ -20,7 +20,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.4507042253521127
-fov:0.05
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:0.5035088
 gamma:0.25704225352112675
@@ -132,7 +132,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.l
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 soundCategory_master:1.0
-soundCategory_music:0.40492958
+soundCategory_music:0.35915494
 soundCategory_record:0.15492958
 soundCategory_weather:0.30633804
 soundCategory_block:0.7570422

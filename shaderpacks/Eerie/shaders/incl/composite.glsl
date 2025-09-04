@@ -31,8 +31,7 @@ void main() {
 	#include "/incl/depression.glsl"
 	#ifdef OVERWORLD
 		float blockDepth = length(screenToView(vec3(texCoords, rawDepth)));
-		float fogEnd = triLerp(min_fogEnd, mid_fogEnd, max_fogEnd, depression);
-		float skyFog = clamp(percentThrough(blockDepth, fogEnd * 0.9, fogEnd), 0.0, 1.0);
+		float skyFog = clamp(percentThrough(blockDepth, 16.0 * 5.0 * 0.6, 16.0 * 5.0), 0.0, 1.0);
 		color = mix(color, texelFetch(colortex1, ivec2(gl_FragCoord.xy), 0).rgb, skyFog);
 		if (clouds.a > 0.0) {
 			vec3 cloudNormal = clouds.xyz * 2.0 - 1.0;

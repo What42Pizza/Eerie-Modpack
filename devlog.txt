@@ -1,3 +1,9 @@
+25/08/09
+
+It's been a while since I've worked on this or even just touched it, and now that I'm back, there's a few shifts in what exactly I want this to be. First off, I think it should be less depressing. I'm pretty sure I was already moving in that direction, but I forgot just how depressing it still is. I've increased the contrast and saturation, and I'll probbaly do more stuff soon. Another difference is that I want it to be more realistic (instead of retro) in a few ways, starting with fog. I'm always surpised with how much better I like realistic formulas over "artistic" formulas, and so I'm switching the fog code to something more realistic. Hopefully I can also use other lessons from my main shader to improve this pack's shader too.
+
+My hope with the realism is that it will create an eerie disconnect between what you see and what you feel like you see. I remember a time a lot earlier in development when I went into a room in my (in-gmae) house that had a lot of windows and (in-game) natural light, and that definitely gave a creepy feeling of realism that I want to recapture.
+
 24/01/27
 
 I've been noticing something kinda strange recently. I don't want there to be anything that could remind someone that they're playing a video game. This makes sense with horror since something can't be scary unless it's somewhat believable, but that seems to contradict the retro-digital aesthetic I'm going for and it's just kinda strange. And even stranger, I'm not fine with bugs but I'm fine with bits of lag. I want an overall smooth fps, but I think I also kinda want there to be lag spikes / framerate drops. I don't understand the theory here but at least I can perfect the practice. I think it might just be that I want to create juxtaposition, which I guess would make sense.
@@ -6,7 +12,7 @@ I just added the mod Fence on Slab, which might seem kinda strange at first, but
 
 24/01/26
 
-The modpack is fully public now, and suddenly I making a ton of changes. I've been pretty loose with a lot opf stuff since this has just been a personal project for so long, but now that this is public I want to make sure that it's fully presentable. I've overhauled many parts of the shader, edited the mods list, polished up the repo, started a changelog and todo, and probably more. It only has 7 downloads right now but I'm hoping to increase that.
+The modpack is fully public now, and suddenly I'm making a ton of changes. I've been pretty loose with a lot opf stuff since this has just been a personal project for so long, but now that this is public I want to make sure that it's fully presentable. I've overhauled many parts of the shader, edited the mods list, polished up the repo, started a changelog and todo, and probably more. It only has 7 downloads right now but I'm hoping to increase that.
 
 Also, I've been looking at this shader so much that it looks completely normal. The fog even makes the sky look like it has a bloom effect applied and it looks beautiful but not in any way that I want (2025-01-26_22.12.10).
 

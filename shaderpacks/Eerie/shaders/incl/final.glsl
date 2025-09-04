@@ -20,6 +20,11 @@ void main() {
 	
 	color = floor(color * 127.0) / 127.0;
 	
+	//if (texCoords.y < 0.1) {
+	//	#include "/incl/depression.glsl"
+	//	color = vec3(depression);
+	//}
+	
 	/* DRAWBUFFERS:0 */
 	gl_FragData[0] = vec4(color, 1.0);
 }

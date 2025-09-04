@@ -155,8 +155,8 @@ vec3 hsv2rgb(vec3 c) {
 
 
 vec2 adjustBrightness(vec2 lmCoords) {
-	lmCoords -= 0.03126; // moves darkest values to black (value found through trial and error)
-	return 1-pow(1-lmCoords,vec2(brightnessCurve));
+	lmCoords -= 0.03125; // moves darkest values to black 
+	return (exp(lmCoords - 1.0) - 0.36788) / 0.63212;
 }
 
 
@@ -197,7 +197,7 @@ vec3 getSkyColor() {
 		float fogAmount = 0.1 / (upDot * upDot + 0.1);
 		vec3 sky = dstrt(skyColor * 0.9, mix(-0.15, -0.4, depression), 0.0, -0.2);
 		vec3 fog = dstrt(fogColor * getSunlightPercent(), mix(-0.1, -0.5, depression), 0.0, -0.5);
-		return mix(sky, fog, fogAmount * 0.5);
+		return mix(sky, fog, fogAmount * 0.5) * 0.98;
 	#elif defined NETHER
 		return vec3(0.0);
 	#elif defined END

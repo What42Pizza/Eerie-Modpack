@@ -1,7 +1,7 @@
 // menu options
 
 //#define SHOW_DANGER
-#define NIGHT_BRIGHTNESS 0.085 // [0.085 0.15]
+#define NIGHT_BRIGHTNESS 0.08 // [0.08 0.15]
 #define ENABLE_SCALING
 //#define SHADER_TORCHLIGHT
 
@@ -28,23 +28,20 @@ const bool colortex0MipmapEnabled = true;
 
 const float normalsSlope = 16.0;
 
-const float min_fogStart = 0.15;
-const float mid_fogStart = 0.1;
-const float max_fogStart = 0.05;
-const float min_fogEnd = 16 * 6;
-const float mid_fogEnd = 16 * 5;
-const float max_fogEnd = 16 * 4;
-const float min_fogCurve = 0.7;
-const float mid_fogCurve = 1.2;
-const float max_fogCurve = 2.5;
+const float min_fogStart = 10;
+const float mid_fogStart = 7;
+const float max_fogStart = 1;
+const float min_fogDensity = 0.015;
+const float mid_fogDensity = 0.03;
+const float max_fogDensity = 0.07;
 
 const float targetResolution = 780;
 const float resolutionBlobAmount = 0.15;
 
-const float dstrtAmount1 = -0.1;  // saturation
-const float dstrtAmount2 = 0.1;    // contrast
+const float dstrtAmount1 = -0.08;  // saturation
+const float dstrtAmount2 = 0.13;    // contrast
 const float dstrtAmount3 = -0.35;   // gamma?
-const float depressionDstrtAmount3 = -0.1;
+const float depressionDstrtAmount3 = -0.05;
 const vec4 seasonSaturations = vec4(1.0, 1.0, 0.9, 0.7);
 const vec4 seasonHues = vec4(0.0, -0.03, -0.17, -0.1);
 const vec4 seasonGammas = vec4(0.85, 0.95, 0.85, 0.9);
@@ -75,15 +72,22 @@ const float sunPathRotation = 1.2;
 
 const float normalsSlope = 12.0;
 
-const float min_fogStart = 0.1;
-const float mid_fogStart = 0.1;
-const float max_fogStart = 0.1;
-const float min_fogEnd = 16 * 7;
-const float mid_fogEnd = 16 * 7;
-const float max_fogEnd = 16 * 7;
-const float min_fogCurve = 2.0;
-const float mid_fogCurve = 2.0;
-const float max_fogCurve = 2.0;
+const float min_fogStart = 1;
+const float mid_fogStart = 8;
+const float max_fogStart = 20;
+const float min_fogDensity = 1;
+const float mid_fogDensity = 8;
+const float max_fogDensity = 20;
+
+//const float min_fogStart = 0.1;
+//const float mid_fogStart = 0.1;
+//const float max_fogStart = 0.1;
+//const float min_fogEnd = 16 * 7;
+//const float mid_fogEnd = 16 * 7;
+//const float max_fogEnd = 16 * 7;
+//const float min_fogCurve = 2.0;
+//const float mid_fogCurve = 2.0;
+//const float max_fogCurve = 2.0;
 
 const float targetResolution = 750;
 const float resolutionBlobAmount = 0.2;
@@ -109,15 +113,22 @@ const vec3 nightVisionTint = vec3(0.2, 0.4, 0.0);
 
 const float normalsSlope = 12.0;
 
-const float min_fogStart = 1.0;
-const float mid_fogStart = 1.0;
-const float max_fogStart = 1.0;
-const float min_fogEnd = 1.0;
-const float mid_fogEnd = 1.0;
-const float max_fogEnd = 1.0;
-const float min_fogCurve = 1.0;
-const float mid_fogCurve = 1.0;
-const float max_fogCurve = 1.0;
+const float min_fogStart = 1;
+const float mid_fogStart = 8;
+const float max_fogStart = 20;
+const float min_fogDensity = 1;
+const float mid_fogDensity = 8;
+const float max_fogDensity = 20;
+
+//const float min_fogStart = 1.0;
+//const float mid_fogStart = 1.0;
+//const float max_fogStart = 1.0;
+//const float min_fogEnd = 1.0;
+//const float mid_fogEnd = 1.0;
+//const float max_fogEnd = 1.0;
+//const float min_fogCurve = 1.0;
+//const float mid_fogCurve = 1.0;
+//const float max_fogCurve = 1.0;
 
 const float targetResolution = 720;
 const float resolutionBlobAmount = 0.25;
