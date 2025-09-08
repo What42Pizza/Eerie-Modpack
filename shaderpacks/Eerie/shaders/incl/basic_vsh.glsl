@@ -1,3 +1,5 @@
+vec3 playerPos = (gbufferModelViewInverse * gl_ModelViewMatrix * gl_Vertex).xyz;
+
 gl_Position = ftransform();
 texCoords = gl_MultiTexCoord0.st;
 lmCoords = (gl_TextureMatrix[1] * gl_MultiTexCoord1).xy;

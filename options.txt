@@ -135,10 +135,10 @@ soundCategory_master:1.0
 soundCategory_music:0.35915494
 soundCategory_record:0.15492958
 soundCategory_weather:0.30633804
-soundCategory_block:0.7570422
+soundCategory_block:0.60211265
 soundCategory_hostile:0.75
 soundCategory_neutral:0.25704226
-soundCategory_player:0.75
+soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
 modelPart_cape:true

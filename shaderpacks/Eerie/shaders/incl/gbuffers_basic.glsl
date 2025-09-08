@@ -21,6 +21,7 @@ void main() {
 	#if defined OVERWORLD || defined NETHER
 		vec3 skyColor = getSkyColor();
 		skyColor *= getHorizonMultiplier(depth, upVec);
+		skyColor *= 0.5 + 0.5 * fogAmount * fogAmount;
 		albedo.rgb = mix(albedo.rgb, skyColor, fogAmount);
 	#endif
 	

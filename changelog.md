@@ -1,3 +1,10 @@
+### v1.3.4 &nbsp; 
+
+- Tweaked shader
+- Tweaked default sound settings
+
+<br>
+
 ### v1.3.3 &nbsp; 24/04/11
 
 - Added mods:

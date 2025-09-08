@@ -36,7 +36,9 @@ const float mid_fogDensity = 0.03;
 const float max_fogDensity = 0.07;
 
 const float targetResolution = 780;
-const float resolutionBlobAmount = 0.15;
+const float resolutionBlobAmount = 0.12;
+const float bloomScale = 0.8;
+const float bloomAmount = 0.4;
 
 const float dstrtAmount1 = -0.08;  // saturation
 const float dstrtAmount2 = 0.13;    // contrast

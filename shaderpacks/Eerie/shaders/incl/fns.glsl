@@ -132,8 +132,8 @@ vec3 dstrt(vec3 color, float a, float b, float c) {
 	//lum_diff = lum_diff - sin(2 * PI * lum_diff) * -a;
 	lum_diff = pow(abs(lum_diff), vec3(1 - a)) * sign(lum_diff);
 	color = color_lum + lum_diff;
-	color = mix(vec3(0.25, 0.25, 0.25), color, 1 + b);
-	color = pow(color, vec3(1 + c));
+	color = mix(vec3(0.25, 0.25, 0.25), color, 1.0 + b);
+	color = pow(color, vec3(1.0 + c));
 	return color;
 }
 
@@ -194,10 +194,9 @@ vec3 getSkyColor() {
 		#include "/incl/depression.glsl"
 		vec4 pos = vec4(gl_FragCoord.xy / vec2(viewWidth, viewHeight) * 2.0 - 1.0, 1.0, 1.0) * gbufferProjectionInverse;
 		float upDot = max(dot(normalize(pos.xyz), gbufferModelView[1].xyz), 0.0);
-		float fogAmount = 0.1 / (upDot * upDot + 0.1);
-		vec3 sky = dstrt(skyColor * 0.9, mix(-0.15, -0.4, depression), 0.0, -0.2);
+		vec3 sky = dstrt(skyColor * 0.9, mix(-0.15, -0.4, depression), 0.0, -0.5);
 		vec3 fog = dstrt(fogColor * getSunlightPercent(), mix(-0.1, -0.5, depression), 0.0, -0.5);
-		return mix(sky, fog, fogAmount * 0.5) * 0.98;
+		return mix(fog, sky, upDot) * 0.9;
 	#elif defined NETHER
 		return vec3(0.0);
 	#elif defined END
